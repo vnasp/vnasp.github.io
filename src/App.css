@@ -62,6 +62,17 @@ body {
   }
 }
 
+/* Cover */
+
+#cover {
+  background-image: url("./assets/img/background.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  width: 100wh;
+  resize: both;
+  overflow: hidden;
+}
 .cover-text {
   font-weight: 700;
   text-transform: uppercase;
@@ -90,6 +101,10 @@ body {
       background-position: var(--bg-size) 0;
     }
   }
+}
+
+.sides {
+	border-image: linear-gradient(to left, #818CF8, #eeebef) 1 0;
 }
 
 /* Portfolio */
