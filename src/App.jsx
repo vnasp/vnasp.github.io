@@ -1,11 +1,19 @@
-import './App.css'
+import Header from "./views/Header.jsx"
+import About from "./views/About.jsx"
+import Portfolio from "./views/Portfolio.jsx"
+import Contact from "./views/Contact.jsx"
+import Footer from "./views/Footer.jsx"
 
 function App() {
 
   return (
-    <>
-      <h1>Vite + React</h1>
-    </>
+    <div className="w-screen">
+      <Header />
+      <About />
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </div>
   )
 }
 

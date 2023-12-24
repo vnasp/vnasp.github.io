@@ -1,42 +1,107 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  background-color: #eeebef;
+  width: 100vw;
+  font-family: 'Oswald', sans-serif;
+
+}
+
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
+/* Logo */
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  overflow: hidden;
+  text-align: left;
+  border-right: .15em solid transparent;
+  white-space: nowrap;
+  letter-spacing: .1em;
+  animation:
+    typing 3.0s steps(40, end),
+    blink-caret .75s step-end 6;
 }
 
-@keyframes logo-spin {
+.logo-animation h1 {
+  font-size: 2rem;
+  color: #8E82FE;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.logo-animation h2 {
+  font-size: 0.5rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@keyframes typing {
   from {
-    transform: rotate(0deg);
+    width: 0
   }
+
   to {
-    transform: rotate(360deg);
+    width: 60%
   }
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: FFD700;
+  }
+}
+
+.cover-text {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 3rem;
+  --bg-size: 400%;
+  --color-one: hsl(248, 80%, 74%);
+  --color-two: hsl(197, 53%, 78%);
+  --color-three: hsl(261, 53%, 49%);
+  background: linear-gradient(90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-three),
+      var(--color-one)) 0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .cover-text {
+    animation: move-bg 8s linear infinite;
+  }
+
+  @keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
   }
 }
 
-.card {
-  padding: 2em;
+/* Portfolio */
+#projects {
+  border: 2px solid #8E82FE;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  height: 200px;
 }
 
-.read-the-docs {
-  color: #888;
+/* night Theme */
+.dark {
+  background-color: #29272a;
+  color: white;
 }
