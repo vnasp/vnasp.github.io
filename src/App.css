@@ -6,6 +6,7 @@ body {
   background-color: #eeebef;
   width: 100vw;
   font-family: 'Oswald', sans-serif;
+  font-size:16px;
 
 }
 
@@ -107,6 +108,13 @@ body {
 	border-image: linear-gradient(to left, #818CF8, #eeebef) 1 0;
 }
 
+/* About me */
+#badges img {
+  border-radius: 0.5rem;
+  margin: 5px;
+  height: 20px;
+}
+
 /* Portfolio */
 #projects {
   border: 2px solid #8E82FE;
@@ -114,6 +122,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   height: 200px;
 }
+
 
 /* night Theme */
 .dark {
