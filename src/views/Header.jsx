@@ -8,13 +8,17 @@ const Header = () => {
 
   useEffect(() => {
     if (darkMode) {
-      document.getElementById("header").classList.add('dark')
-      document.getElementById("portfolio").classList.add('dark')
+      document.getElementById("header").classList.add('bg-zinc-800','text-white')
+      document.getElementById("portfolio").classList.add('bg-zinc-800','text-white')
+      document.getElementById("about").classList.remove('text-white')
+      document.getElementById("badges").classList.add('invert')
 
     }
     else {
-      document.getElementById("header").classList.remove('dark')
-      document.getElementById("portfolio").classList.remove('dark')
+      document.getElementById("header").classList.remove('bg-zinc-800','text-white')
+      document.getElementById("portfolio").classList.remove('bg-zinc-800','text-white')
+      document.getElementById("about").classList.add('text-white')
+      document.getElementById("badges").classList.remove('invert')
 
     }
   }, [darkMode])

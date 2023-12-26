@@ -10,5 +10,29 @@
       "Json File"
     ],
     "date": 2024
+  },
+  {
+    "id": 2,
+    "name": "bigos.cl",
+    "type": "E-commerce",
+    "description": "Portafolio creado para desarrolladora web",
+    "skills": [
+      "React.JS",
+      "TailwindCSS",
+      "Json File"
+    ],
+    "date": 2024
+  },
+  {
+    "id": 3,
+    "name": "laboquilla.cl",
+    "type": "E-commerce",
+    "description": "Portafolio creado para desarrolladora web",
+    "skills": [
+      "React.JS",
+      "TailwindCSS",
+      "Json File"
+    ],
+    "date": 2024
   }
 ]

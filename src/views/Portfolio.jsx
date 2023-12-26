@@ -29,11 +29,9 @@ const Portfolio = () => {
           <div id="projects" key={project.id}>
             <span>{project.name}</span>
             <div>
-              
               {project.skills.map((skill, index) => (
                 <span className="bg-indigo-400 text-white rounded-lg py-1 px-3 me-1" key={index}> {skill}</span>
               ))}
-      
             </div></div>
         ))}
       </div>
