@@ -10,7 +10,7 @@
       "HTML5",
       "MySQL"
     ],
-    "img": "/src/assets/img/dzasp.jpg",
+    "img": "./assets/img/dzasp.jpg",
     "date": 2024,
     "display": false
   },
@@ -25,7 +25,7 @@
       "HTML5",
       "MySQL"
     ],
-    "img": "/src/assets/img/bigos.jpg",
+    "img": "./assets/img/bigos.jpg",
     "date": 2024,
     "display": true
   },
@@ -39,7 +39,7 @@
       "TailwindCSS",
       "Json File"
     ],
-    "img": "/src/assets/img/laboquilla.jpg",
+    "img": "./assets/img/laboquilla.jpg",
     "date": 2024,
     "display": true
   },
@@ -54,7 +54,7 @@
       "HTML5",
       "MySQL"
     ],
-    "img": "/src/assets/img/dzasp.jpg",
+    "img": "./assets/img/dzasp.jpg",
     "date": 2024,
     "display": false
   },
@@ -68,7 +68,7 @@
       "TailwindCSS",
       "Json File"
     ],
-    "img": "/src/assets/img/naturalpic.jpg",
+    "img": "./assets/img/naturalpic.jpg",
     "date": 2024,
     "display": true
   },
@@ -82,7 +82,7 @@
       "TailwindCSS",
       "Json File"
     ],
-    "img": "/src/assets/img/mamamia.jpg",
+    "img": "./assets/img/mamamia.jpg",
     "date": 2024,
     "display": true
   },
@@ -96,7 +96,7 @@
       "TailwindCSS",
       "Json File"
     ],
-    "img": "/src/assets/img/likeme.jpg",
+    "img": "./assets/img/likeme.jpg",
     "date": 2024,
     "display": true
   }
