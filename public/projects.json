@@ -1,38 +1,103 @@
 [
   {
     "id": 1,
-    "name": "Portafolio",
-    "type": "Landing Page",
-    "description": "Portafolio creado para desarrolladora web",
+    "name": "dzasp.cl",
+    "type": "E-commerce",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
     "skills": [
-      "React.JS",
-      "TailwindCSS",
-      "Json File"
+      "Prestashop",
+      "CSS3",
+      "HTML5",
+      "MySQL"
     ],
-    "date": 2024
+    "img": "/src/assets/img/dzasp.jpg",
+    "date": 2024,
+    "display": false
   },
   {
     "id": 2,
     "name": "bigos.cl",
     "type": "E-commerce",
-    "description": "Portafolio creado para desarrolladora web",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
     "skills": [
-      "React.JS",
-      "TailwindCSS",
-      "Json File"
+      "Prestashop",
+      "CSS3",
+      "HTML5",
+      "MySQL"
     ],
-    "date": 2024
+    "img": "/src/assets/img/bigos.jpg",
+    "date": 2024,
+    "display": true
   },
   {
     "id": 3,
     "name": "laboquilla.cl",
     "type": "E-commerce",
-    "description": "Portafolio creado para desarrolladora web",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
     "skills": [
       "React.JS",
       "TailwindCSS",
       "Json File"
     ],
-    "date": 2024
+    "img": "/src/assets/img/laboquilla.jpg",
+    "date": 2024,
+    "display": true
+  },
+  {
+    "id": 4,
+    "name": "ludorata.cl",
+    "type": "E-commerce",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "skills": [
+      "Prestashop",
+      "CSS3",
+      "HTML5",
+      "MySQL"
+    ],
+    "img": "/src/assets/img/dzasp.jpg",
+    "date": 2024,
+    "display": false
+  },
+  {
+    "id": 5,
+    "name": "NaturalPic",
+    "type": "Galeria",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "skills": [
+      "React.JS",
+      "TailwindCSS",
+      "Json File"
+    ],
+    "img": "/src/assets/img/naturalpic.jpg",
+    "date": 2024,
+    "display": true
+  },
+  {
+    "id": 6,
+    "name": "MamaMia",
+    "type": "E-commerce",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "skills": [
+      "React.JS",
+      "TailwindCSS",
+      "Json File"
+    ],
+    "img": "/src/assets/img/mamamia.jpg",
+    "date": 2024,
+    "display": true
+  },
+  {
+    "id": 7,
+    "name": "LikeMe",
+    "type": "Red Social",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "skills": [
+      "React.JS",
+      "TailwindCSS",
+      "Json File"
+    ],
+    "img": "/src/assets/img/likeme.jpg",
+    "date": 2024,
+    "display": true
   }
 ]

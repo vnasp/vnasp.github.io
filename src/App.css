@@ -70,7 +70,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: bottom;
-  width: 100wh;
   resize: both;
   overflow: hidden;
 }
@@ -105,20 +104,12 @@ body {
 }
 
 .sides {
-	border-image: linear-gradient(to left, #818CF8, #eeebef) 1 0;
-}
-
-/* About me */
-.badges img {
-  border-radius: 0.5rem;
-  margin: 5px;
-  height: 20px;
+	border-image: linear-gradient(to right, #818CF8, #eeebef) 1 0;
 }
 
 /* Portfolio */
 #projects {
-  border: 2px solid #8E82FE;
+  border: 2px solid #818CF8;
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-  height: 200px;
 }
