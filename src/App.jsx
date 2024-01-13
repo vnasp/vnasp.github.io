@@ -7,7 +7,7 @@ import Footer from "./views/Footer.jsx"
 function App() {
 
   return (
-    <div className="w-screen">
+    <div className="">
       <Header />
       <About />
       <Portfolio />

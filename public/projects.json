@@ -99,5 +99,18 @@
     "img": "./assets/img/likeme.jpg",
     "date": 2024,
     "display": true
+  },
+  {
+    "id": 8,
+    "name": "Sintesis de Conocimientos",
+    "type": "Knowledge Base",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "skills": [
+      "Wordpress",
+      "MySQL"
+    ],
+    "img": "./assets/img/sintesis.jpg",
+    "date": 2024,
+    "display": true
   }
 ]

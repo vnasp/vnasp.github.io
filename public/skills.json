@@ -85,20 +85,27 @@
   },
   {
     "id": 13,
+    "name": "Wordpress",
+    "badge_bg_color": "1e293b",
+    "logo": "wordpress",
+"logo_bg_color": "white"
+  },
+  {
+    "id": 14,
     "name": "VSCode",
     "badge_bg_color": "1e293b",
     "logo": "visual studiocode",
 "logo_bg_color": "white"
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Adobe Photoshop",
     "badge_bg_color": "1e293b",
     "logo": "adobe photoshop",
 "logo_bg_color": "white"
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Google Sheets",
     "badge_bg_color": "1e293b",
     "logo": "google sheets",

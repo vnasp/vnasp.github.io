@@ -22,7 +22,7 @@ const About = () => {
   }
   return (
 
-    <div id="about" className="flex flex-col gap-3 bg-indigo-400 h-auto p-8 text-white">
+    <div id="about" className="flex flex-col gap-3 bg-indigo-400 h-auto p-8 text-white md:p-20">
       <div className="font-light tracking-wider text-justify">
         Hola. ¿Qué tal? Mi nombre es Valentina. Hace más de 10 de años creo páginas web de manera freelance: desde los inicios del HTML hasta el actual framework React.JS. He desarrollado distintos sitios: informativos, foros, blogs, landing page, e-commerce. Me considero proactiva, naturalmente curiosa, detallista, y me gusta estar constantemente mejorando mis habilidades.
       </div>

@@ -24,15 +24,17 @@ const Portfolio = () => {
   }
 
   return (
-    <div id="portfolio" className="h-auto p-8  text-white">
+    <div id="portfolio" className="h-auto p-8 text-white">
       <div className="flex flex-col gap-3">
         {projects.map((project) => (
-          <div id="projects" key={project.id} className="bg-indigo-400">
+          <div id="projects" key={project.id} className="bg-indigo-400 md:flex">
             <div className="border-b-8 sides text-center"><img alta={project.name} src={project.img} /></div>
-            <div className="p-2 uppercase text-center">{project.type} - {project.name}</div>
+            <div>
+              <div className="p-2 uppercase text-center">{project.type} - {project.name}</div>
             <div className="pb-2 px-2 font-light tracking-wider text-justify">{project.description}. {project.skills.map((skill, index) => (
               <span key={index} className="me-1">{skill}</span>
             ))}</div>
+            </div>
           </div>
         ))}
       </div>

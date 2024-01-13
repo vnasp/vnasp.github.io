@@ -26,14 +26,14 @@ const Header = () => {
   }, [darkMode])
   return (
     <div id="header" className="flex flex-col">
-      <div className="flex items-center mt-10">
-        <div className="absolute left-2 logo logo-animation ps-3">
-          <a href="">
-            <h1>Valentina Muñoz</h1>
-            <h2>Frontend Developer</h2>
+      <div className="flex justify-between items-center m-10">
+        <div className="logo logo-animation">
+          <a href="#">
+            <h1 className="text-4xl md:text-5xl">Valentina Muñoz</h1>
+            <h2 className="text-xs md:text-base">Frontend Developer</h2>
           </a>
         </div>
-        <div className="absolute right-2">
+        <div className="right-2">
           <label className="relative inline-flex items-center cursor-pointer">
             <input type="checkbox" value="" onClick={() => { setDarkMode(!darkMode) }} className="sr-only peer" />
             <div className="w-11 h-6 bg-sky-200 border-2 border-white rounded-full peer-focus:ring-4  
