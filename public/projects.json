@@ -3,12 +3,13 @@
     "id": 1,
     "name": "dzasp.cl",
     "type": "E-commerce",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "description": "Implementación de e-commerce Prestashop. Carga de productos, integración con addons, pasarelas de pagos nacionales.",
     "skills": [
       "Prestashop",
-      "CSS3",
+      "PHP",
+      "MySQL",
       "HTML5",
-      "MySQL"
+      "CSS3"
     ],
     "img": "./assets/img/dzasp.jpg",
     "date": 2024,
@@ -18,12 +19,14 @@
     "id": 2,
     "name": "bigos.cl",
     "type": "E-commerce",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "description": "Implementación de e-commerce Prestashop. Carga de productos, instalación de blog, pluggins, pasarelas de pagos nacionales (MercadoPago, Webpay, Flow), sistema de facturación electrónica, punto de venta. Personalización de plantillas TPL y correos transaccionales de Prestashop. Integración de MercadoLibre. Generación de GoogleSheets vinculadas a MySQL/SyncWith.",
     "skills": [
       "Prestashop",
-      "CSS3",
+      "PHP",
+      "MySQL",
       "HTML5",
-      "MySQL"
+      "CSS3",
+      "GoogleSheets"
     ],
     "img": "./assets/img/bigos.jpg",
     "date": 2024,
@@ -33,11 +36,13 @@
     "id": 3,
     "name": "laboquilla.cl",
     "type": "E-commerce",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "description": "Implementación de catálogo online en Prestashop. Integración de addons, punto de venta y sistema de facturación electrónica. Personalización de plantillas TPL de Prestashop. Personalización de plantillas TPL de Prestashop.",
     "skills": [
-      "React.JS",
-      "TailwindCSS",
-      "Json File"
+      "Prestashop",
+      "PHP",
+      "MySQL",
+      "HTML5",
+      "CSS3"
     ],
     "img": "./assets/img/laboquilla.jpg",
     "date": 2024,
@@ -47,12 +52,13 @@
     "id": 4,
     "name": "ludorata.cl",
     "type": "E-commerce",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "description": "Implementación de e-commerce Prestashop. Carga de productos, instalación de blog, pluggins, pasarelas de pagos nacionales (MercadoPago, Webpay, Flow), sistema de facturación electrónica, punto de venta. Personalización de plantillas TPL y correos transaccionales de Prestashop. Integración de MercadoLibre. Generación de GoogleSheets vinculadas a MySQL/SyncWith.",
     "skills": [
       "Prestashop",
-      "CSS3",
+      "PHP",
+      "MySQL",
       "HTML5",
-      "MySQL"
+      "CSS3"
     ],
     "img": "./assets/img/dzasp.jpg",
     "date": 2024,
@@ -62,11 +68,14 @@
     "id": 5,
     "name": "NaturalPic",
     "type": "Galeria",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "description": "Desarrollo de galería en ReactJS, framework Bootstrap, CSS3 personalizado, Javascript. Información se obtiene desde archivo JSON. Diseño original, temático y responsive. Con lista de favoritos y buscador.",
     "skills": [
-      "React.JS",
-      "TailwindCSS",
-      "Json File"
+      "ReactJS",
+      "Javascript",
+      "JSON",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
     ],
     "img": "./assets/img/naturalpic.jpg",
     "date": 2024,
@@ -76,11 +85,14 @@
     "id": 6,
     "name": "MamaMia",
     "type": "E-commerce",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "description": "Desarrollo de carrito de compra en ReactJS, framework Bootstrap, CSS3 personalizado, Javascript. Menú se obtiene desde archivo JSON. Diseño original, temático y responsive. Con cupón de descuento y puntos de fidelización.",
     "skills": [
-      "React.JS",
-      "TailwindCSS",
-      "Json File"
+      "ReactJS",
+      "Javascript",
+      "JSON",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
     ],
     "img": "./assets/img/mamamia.jpg",
     "date": 2024,
@@ -90,11 +102,14 @@
     "id": 7,
     "name": "LikeMe",
     "type": "Red Social",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "description": "Desarrollo de prototipo de red social en ReactJS, framework Bootstrap, CSS3, Javascript. Información almacenada con PostgreSQL y obtenida mediante operaciones CRUD. Diseño original, temático y responsive.",
     "skills": [
-      "React.JS",
-      "TailwindCSS",
-      "Json File"
+      "ReactJS",
+      "Javascript",
+      "PostgreSQL",
+      "Bootstrap",
+      "HTML5",
+      "CSS3"
     ],
     "img": "./assets/img/likeme.jpg",
     "date": 2024,
@@ -104,10 +119,13 @@
     "id": 8,
     "name": "Sintesis de Conocimientos",
     "type": "Knowledge Base",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id ante iaculis, blandit sem in, interdum felis. Suspendisse erat mauris, eleifend vel dictum ut, congue vitae nulla. Cras non tincidunt ex.",
+    "description": "Implementación de base de conocimientos con Wordpress. Migración desde Joomla. Integración de addons, personalización de diseño, desarrollo de funcionalidades.",
     "skills": [
       "Wordpress",
-      "MySQL"
+      "PHP",
+      "MySQL",
+      "HTML5",
+      "CSS3"
     ],
     "img": "./assets/img/sintesis.jpg",
     "date": 2024,
