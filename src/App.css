@@ -7,7 +7,7 @@ body {
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   color: black;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
@@ -112,4 +112,17 @@ body {
   border: 2px solid #818CF8;
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+@media only screen and (min-width: 768px) {
+  #projects img {
+    filter: saturate(0%);
+    -webkit-filter: saturate(0%);
+    transition: filter 1s linear;
+  }
+  
+  #projects img:hover {
+    filter: saturate(100%);
+    -webkit-filter: saturate(100%);
+  }
 }

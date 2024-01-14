@@ -28,10 +28,10 @@ const Portfolio = () => {
       <div className="flex flex-col gap-3">
         {projects.map((project) => (
           <div id="projects" key={project.id} className="bg-indigo-400 md:flex">
-            <div className="border-b-8 sides text-center md:w-2/4"><img alta={project.name} src={project.img} /></div>
+            <div className="border-b-8 sides text-center md:w-2/4"><img alt={project.name} src={project.img} /></div>
             <div className="md:w-2/4">
-              <div className="p-2 uppercase text-center">{project.type} - {project.name}</div>
-              <div className="pb-2 px-2 font-light tracking-wider text-justify">{project.description}. {project.skills.map((skill, index) => (
+              <div className="p-2 uppercase text-center"><h3>{project.type} - {project.name}</h3></div>
+              <div className="p-4 font-light tracking-wider text-justify">{project.description} Habilidades: {project.skills.map((skill, index) => (
                 <span key={index} className="me-1">{skill}</span>
               ))}</div>
             </div>
