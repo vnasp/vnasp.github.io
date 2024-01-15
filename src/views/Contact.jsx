@@ -4,7 +4,7 @@ const Contact = () => {
     <div id="contact" className="bg-indigo-400 h-auto p-4 pb-20 text-white">
       <h3 className="">Contacto</h3>
       <div className="flex py-3">
-        <div className="m-3">
+        <div className="m-3"><a href="CV_Valentina-Munoz.pdf" alt="Descargar mi CV">
           <svg fill="#6b5f98" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 43.916 43.916">
             <g>
               <path d="M34.395,0H9.522c-2.762,0-5,2.239-5,5v33.916c0,2.761,2.238,5,5,5h24.871c2.762,0,5-2.239,5-5V5
@@ -14,16 +14,17 @@ const Contact = () => {
 		L9.208,16.855z M32.708,37.416h-21.5c-1.104,0-2-0.896-2-2s0.896-2,2-2h21.5c1.104,0,2,0.896,2,2S33.812,37.416,32.708,37.416z M32.708,29.916h-21.5c-1.104,0-2-0.896-2-2s0.896-2,2-2h21.5c1.104,0,2,0.896,2,2S33.812,29.916,32.708,29.916z M32.708,22.416 h-6.5c-1.104,0-2-0.896-2-2c0-1.104,0.896-2,2-2h6.5c1.104,0,2,0.896,2,2C34.708,21.52,33.812,22.416,32.708,22.416z" fill="#FFF" />
             </g>
           </svg>
+          </a>
         </div>
 
-        <div className="m-3"><a href="https://www.linkedin.com/in/vnasp/">
+        <div className="m-3"><a href="https://www.linkedin.com/in/vnasp/" alt="Revisa mi LinkedIn" target="_blank">
           <svg height="24" viewBox="0 0 72 72" width="24" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fillRule="evenodd">
               <path d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" fill="#fff" />
               <path d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z" fill="#5C6BC0" />
             </g>
           </svg></a></div>
-        <div className="m-3"><a href="http://github.com/vnasp"><svg width="24px" height="24px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+        <div className="m-3"><a href="http://github.com/vnasp" alt="Revisa mi GitHub" target="_blank"><svg width="24px" height="24px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
           <g id="Layer_2" data-name="Layer 2">
             <g id="invisible_box" data-name="invisible box">
               <rect width="48" height="48" fill="none" />

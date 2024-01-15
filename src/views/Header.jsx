@@ -26,7 +26,7 @@ const Header = () => {
   }, [darkMode])
   return (
     <div id="header" className="flex flex-col">
-      <div className="flex justify-between items-center m-10">
+      <div className="flex justify-between items-center mt-10 mx-10">
         <div className="logo logo-animation">
           <a href="#">
             <h1 className="text-4xl md:text-5xl">Valentina Muñoz</h1>
