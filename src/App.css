@@ -5,7 +5,9 @@
   font-family: 'Oswald';
   src: url('./assets/fonts/Oswald.ttf')  format('truetype'), /* Safari, Android, iOS */
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
   background-color: #ccc;
   font-family: 'Oswald', sans-serif;
@@ -13,8 +15,6 @@ body {
   color: black;
   display: flex;
   justify-content: center;
-  scroll-behavior: smooth;
- 
 }
 
 #root {
@@ -123,16 +123,15 @@ body {
 #projects img {
   filter: saturate(0%);
   -webkit-filter: saturate(0%);
-  transition: filter 0.5s linear;
 }
 #projects:active img,
 #projects:hover img {
   -moz-transform: scale(1.4);
   -webkit-transform: scale(1.4);
   transform: scale(1.4);
-  -moz-transition: all 4s linear;
-  -webkit-transition: all 4s linear;
+  -moz-transition: all 3s linear;
+  -webkit-transition: all 3s linear;
   filter: saturate(100%);
   -webkit-filter: saturate(100%);
-  transition: all 4s linear;
+  transition: all 3s linear;
 }
