@@ -1,9 +1,9 @@
 
 const Contact = () => {
   return (
-    <div id="contact" className="bg-violet-900 h-auto p-4 pb-20 text-white">
+    <div id="contact" className="bg-violet-900 h-auto p-4 pb-20 text-white text-center">
       <h3 className="">Contacto</h3>
-      <div className="flex py-3">
+      <div className="flex py-3 justify-center">
         <div className="m-3"><a href="CV_Valentina-Munoz.pdf" aria-label="Descargar mi CV">
           <svg fill="#6b5f98" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 43.916 43.916">
             <g>
