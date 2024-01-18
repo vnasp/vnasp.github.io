@@ -28,7 +28,7 @@ const Portfolio = () => {
       <div className="flex flex-col gap-3">
         {projects.map((project) => (
           <div id="projects" key={project.id} className="bg-violet-900 md:flex">
-            <div className="border-b-8 sides text-center md:w-2/4"><img alt={project.name} src={project.img} /></div>
+            <div className="border-b-8 sides text-center overflow-hidden md:w-2/4"><img alt={project.name} src={project.img} /></div>
             <div className="md:w-2/4">
               <div className="p-2 uppercase text-center"><h3>{project.type} - {project.name}</h3></div>
               <div className="p-4 font-light tracking-wider text-justify">{project.description} </div>

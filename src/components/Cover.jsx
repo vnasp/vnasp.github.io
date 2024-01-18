@@ -3,7 +3,7 @@ const Cover = () => {
   return (
     <>
       <div className="flex flex-col border-b-8 sides justify-center md:justify-evenly items-center md:flex-row md:px-3">
-        <div className="">
+        <div className="mt-6 md:mt-0">
           <h3 className="text-3xl md:text-6xl text-center">Transformo ideas en <br />
           <span className="text-4xl md:text-6xl">&#123;</span>
           <span className="cover-text text-4xl md:text-6xl"> realidad digital </span>
