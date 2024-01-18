@@ -1,6 +1,14 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@font-face {
+  font-family: 'Oswald';
+  src: url('./assets/fonts/Oswald.eot'); /* IE9 Compat Modes */
+  src: url('./assets/fonts/Oswald.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./assets/fonts/Oswald.woff') format('woff'), /* Modern Browsers */
+       url('./assets/fonts/Oswald.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('./assets/fonts/Oswald.svg') format('svg'); /* Legacy iOS */
+}
 
 body {
   background-color: #ccc;
@@ -29,7 +37,7 @@ body {
 }
 
 .logo-animation h1 {
-  color: #8E82FE;
+  color: #7C3AED;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   line-height: 1;
@@ -75,7 +83,7 @@ body {
 }
 
 .cover-text {
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   line-height: 3rem;
   --bg-size: 400%;
@@ -104,12 +112,12 @@ body {
 }
 
 .sides {
-  border-image: linear-gradient(to left, #818CF8, #eeebef) 1 0;
+  border-image: linear-gradient(to left, #7C3AED, #eeebef) 1 0;
 }
 
 /* Portfolio */
 #projects {
-  border: 2px solid #818CF8;
+  border-bottom: 2px solid #7C3AED;
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
