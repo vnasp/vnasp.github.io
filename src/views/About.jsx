@@ -29,7 +29,7 @@ const About = () => {
       <div className="font-light tracking-wider text-justify">
         Me considero una persona proactiva, naturalmente curiosa, detallista y me gusta estar constantemente mejorando mis habilidades. Busco siempre que los sitios web tengan usabilidad y cumplir con las expectativas de mis clientes.
       </div>
-      <div id="badges" className="flex flex-wrap justify-center invert brightness-100 contrast-200 saturate-0">
+      <div id="badges" className="flex flex-wrap justify-center mt-3 invert brightness-100 contrast-200 saturate-0">
         {skills.map((skill) => (
           <img className="rounded me-2 my-1 h-6" key={skill.id} alt={skill.name} src={'https://img.shields.io/badge/'+skill.name+'-'+skill.badge_bg_color+'?style=for-the-badge&logo='+ skill.logo + '&logoColor=' + skill.logo_bg_color} />
         ))}
