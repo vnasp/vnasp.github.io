@@ -11,7 +11,6 @@ const Header = () => {
       document.getElementById("header").classList.add('bg-zinc-800','text-white')
       document.getElementById("portfolio").classList.add('bg-zinc-800')
       document.getElementById("portfolio").classList.remove('text-white')
-      document.getElementById("about").classList.remove('text-white')
       document.getElementById("badges").classList.remove('invert','brightness-100','contrast-200')
 
     }
@@ -19,7 +18,6 @@ const Header = () => {
       document.getElementById("header").classList.remove('bg-zinc-800','text-white')
       document.getElementById("portfolio").classList.remove('bg-zinc-800')
       document.getElementById("portfolio").classList.add('text-white')
-      document.getElementById("about").classList.add('text-white')
       document.getElementById("badges").classList.add('invert','brightness-100','contrast-200')
 
     }
