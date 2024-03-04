@@ -7,13 +7,13 @@ import Footer from "./views/Footer.jsx"
 function App() {
 
   return (
-    <div className="">
+    <>
       <Header />
       <About />
       <Portfolio />
       <Contact />
       <Footer />
-    </div>
+    </>
   )
 }
 
