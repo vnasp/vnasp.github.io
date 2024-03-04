@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 
 const Portfolio = () => {
-  const API_URL = "/projects.json"
+  const API_URL = "./projects.json"
   const [projects, setProjects] = useState([])
 
   try {
@@ -27,7 +27,7 @@ const Portfolio = () => {
     <div id="portfolio" className="h-auto p-8 text-white">
       <div className="flex flex-col gap-3">
         {projects.map((project) => (
-          <div id="projects" key={project.id} className="bg-violet-900 md:flex">
+          <div id="projects" key={project.id} className="bg-custom md:flex">
             <div className="border-b-8 sides text-center overflow-hidden md:w-2/4"><img alt={project.name} src={project.img} /></div>
             <div className="md:w-2/4">
               <div className="p-2 uppercase text-center"><h3>{project.type} - {project.name}</h3></div>

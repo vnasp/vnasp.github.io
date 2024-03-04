@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 
 const About = () => {
-  const API_URL = "/skills.json"
+  const API_URL = "./skills.json"
   const [skills, setSkills] = useState([])
 
   try {
@@ -22,7 +22,7 @@ const About = () => {
   }
   return (
 
-    <div id="about" className="flex flex-col gap-3 bg-violet-900 h-auto p-8 text-white md:p-20">
+    <div id="about" className="flex flex-col gap-3 bg-custom h-auto p-8 text-white md:p-20">
       <div className="font-light tracking-wider text-justify">
         Hola. ¿Qué tal? Mi nombre es Valentina. Me dedico a la creación y personalización de páginas web desde hace más de 10 de años: desde los inicios de HTML hasta el actual framework React.JS. He tenido la posibilidad de trabajar en distintos tipos de sitios como e-commerce, landing page, foros, y blogs.
       </div>

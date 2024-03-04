@@ -1,7 +1,7 @@
 
 const Contact = () => {
   return (
-    <div id="contact" className="bg-violet-900 h-auto p-4 pb-20 text-white text-center">
+    <div id="contact" className="bg-custom h-auto p-4 pb-20 text-white text-center">
       <h3 className="">Contacto</h3>
       <div className="flex py-3 justify-center">
         <div className="m-3"><a href="CV_Valentina-Munoz.pdf" aria-label="Descargar mi CV">
