@@ -10,18 +10,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 const Navigation = () => {
+  const setActiveclassName = ({ isActive }) => (isActive ? "navigation__link navigation__link--active" : "navigation__link")
+
   return (
     <nav className="navigation">
-      <NavLink to="/" className="navigation__link" aria-label="Inicio">
+      <NavLink to="/" className={setActiveclassName} aria-label="Inicio">
         <FontAwesomeIcon icon={faHouse} />
       </NavLink>
-      <NavLink to="/sobre-mi" className="navigation__link" aria-label="Sobre mi">
+      <NavLink to="/sobre-mi" className={setActiveclassName} aria-label="Sobre mi">
         <FontAwesomeIcon icon={faUser} />
       </NavLink>
-      <NavLink to="/portafolio" className="navigation__link" aria-label="Portafolio">
+      <NavLink to="/portafolio" className={setActiveclassName} aria-label="Portafolio">
         <FontAwesomeIcon icon={faBriefcase} />
       </NavLink>
-      <NavLink to="/habilidades" className="navigation__link" aria-label="Habilidades">
+      <NavLink to="/habilidades" className={setActiveclassName} aria-label="Habilidades">
         <FontAwesomeIcon icon={faGear} />
       </NavLink>
       <a
