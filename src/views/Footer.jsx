@@ -1,5 +1,3 @@
-import ContactLinks from "../components/ContactLinks";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
