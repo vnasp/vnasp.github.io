@@ -20,8 +20,8 @@ const About = () => {
       <section className="w-3/5 about">
         <h3 className="about__title">Sobre mi</h3>
         <p className="about__text">
-          Mi nombre es <b>Valentina</b> y soy desarrolladora{" "}
-          <b>Full Stack Javascript</b>, entre otras cosas. Desde hace más de
+          Mi nombre es <strong>Valentina</strong> y soy desarrolladora{" "}
+          <strong>Full Stack Javascript</strong>, entre otras cosas. Desde hace más de
           10 años comencé diseñando con HTML, incursioné en la gestión de
           distintos CMS y en el 2024 di el gran paso:
           Full Stack Javascript. Ahora diseño aplicaciones web y convierto tus
@@ -41,13 +41,13 @@ const About = () => {
         </p>
         <div className="about__hobbies">
           <div className="group about__tooltip">
-            <FontAwesomeIcon icon={faPaw} className="about__hobbies--icon" />
+            <FontAwesomeIcon icon={faPaw} className="about__hobbies--icon" aria-hidden="true"/>
             <span className="about__hobbies--tooltip">
               Pasar tiempo con mis perros
             </span>
           </div>
           <div className="group about__tooltip">
-            <FontAwesomeIcon icon={faTree} className="about__hobbies--icon" />
+            <FontAwesomeIcon icon={faTree} className="about__hobbies--icon" aria-hidden="true"/>
             <span className="about__hobbies--tooltip">
               Hacer trekking y cuidar el huerto
             </span>
@@ -56,6 +56,7 @@ const About = () => {
             <FontAwesomeIcon
               icon={faPuzzlePiece}
               className="about__hobbies--icon"
+              aria-hidden="true"
             />
             <span className="about__hobbies--tooltip">Armar rompecabezas</span>
           </div>
@@ -63,13 +64,14 @@ const About = () => {
             <FontAwesomeIcon
               icon={faUtensils}
               className="about__hobbies--icon"
+              aria-hidden="true"
             />
             <span className="about__hobbies--tooltip">
               Degustar platos de diferentes países
             </span>
           </div>
           <div className="group about__tooltip">
-            <FontAwesomeIcon icon={faPlane} className="about__hobbies--icon -rotate-45" />
+            <FontAwesomeIcon icon={faPlane} className="about__hobbies--icon -rotate-45" aria-hidden="true" />
             <span className="about__hobbies--tooltip">
               Descubrir nuevos lugares
             </span>
