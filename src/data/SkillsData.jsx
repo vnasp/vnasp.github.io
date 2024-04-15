@@ -1,44 +1,24 @@
+import {
+  faShoppingCart
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export const SkillsData = [
   {
     type: "Frontend",
     list: [
-      {
-        name: "HTML",
-        icon: <i className="devicon-html5-plain colored"></i>,
-      },
-      {
-        name: "CSS",
-        icon: <i className="devicon-css3-plain colored"></i>,
-      },
+      { name: "HTML", icon: <i className="devicon-html5-plain colored"></i> },
+      { name: "CSS", icon: <i className="devicon-css3-plain colored"></i> },
       { name: "Sass", icon: <i className="devicon-sass-original colored"></i> },
-      {
-        name: "Bootstrap",
-        icon: <i className="devicon-bootstrap-plain colored"></i>,
-      },
-      {
-        name: "TailwindCSS",
-        icon: <i className="devicon-tailwindcss-original colored"></i>,
-      },
-      {
-        name: "JavaScript",
-        icon: <i className="devicon-javascript-plain colored"></i>,
-      },
+      { name: "Bootstrap", icon: <i className="devicon-bootstrap-plain colored"></i> },
+      { name: "TailwindCSS", icon: <i className="devicon-tailwindcss-original colored"></i> },
+      { name: "JavaScript", icon: <i className="devicon-javascript-plain colored"></i> },
       { name: "jQuery", icon: <i className="devicon-jquery-plain colored"></i> },
-      {
-        name: "ReactJs",
-        icon: <i className="devicon-react-original colored"></i>,
-      },
+      { name: "ReactJs", icon: <i className="devicon-react-original colored"></i> },
       { name: "Vite", icon: <i className="devicon-vitejs-plain colored"></i> },
-      {
-        name: "NextJS",
-        icon: <i className="devicon-nextjs-original-wordmark colored"></i>,
-      },
+      { name: "NextJS", icon: <i className="devicon-nextjs-original-wordmark colored"></i> },
       { name: "VueJS", icon: <i className="devicon-vuejs-plain colored"></i> },
-
-      {
-        name: "JSON",
-        icon: <i className="devicon-json-plain colored"></i>,
-      },
+      { name: "JSON", icon: <i className="devicon-json-plain colored"></i> },
     ],
   },
   {
@@ -70,7 +50,7 @@ export const SkillsData = [
     list: [
       {
         name: "Prestashop",
-        icon: <i className="devicon-premierepro-plain colored"></i>,
+        icon: <FontAwesomeIcon icon={faShoppingCart} />,
       },
       {
         name: "Wordpress",
@@ -91,7 +71,7 @@ export const SkillsData = [
       },
       { name: "Postman", icon: <i className="devicon-postman-plain colored"></i> },
       { name: "GitHub", icon: <i className="devicon-github-original colored"></i> },
-      { name: "Netlify", icon: <i className="devicon-jquery-plain colored"></i> },
+      { name: "Netlify", icon: <i className="devicon-netlify-plain colored"></i> },
       {
         name: "Adobe Photoshop",
         icon: <i className="devicon-photoshop-plain colored"></i>,
@@ -100,7 +80,7 @@ export const SkillsData = [
         name: "Filezilla",
         icon: <i className="devicon-filezilla-plain colored"></i>,
       },
-      { name: "Trello", icon: <i className="devicon-swagger-plain colored"></i> },
+      { name: "Trello", icon: <i className="devicon-trello-plain colored"></i> },
     ],
   },
 ];
