@@ -165,9 +165,42 @@
 .skills__skill--icon {
   @apply text-4xl;
 }
-.accordion-panel {
-  padding: 15px;
-  border-bottom: 1px solid #ccc; /* Estilo opcional para separar los paneles */
+
+/* Projects */
+.projects__tags {
+  @apply flex flex-wrap justify-center gap-2 mb-4;
+}
+.projects__tags--bg{
+  @apply flex items-center bg-white px-3 py-2 border-0 rounded-lg mx-1 cursor-pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+  transition: transform 0.2s ease-in-out; /* Transición suave para el efecto de hover */
+}
+
+.projects__tags--bg:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project__project {
+
+}
+.project__header {
+  @apply flex flex-row justify-between items-center mb-4;
+}
+.project__name {
+  @apply text-xl uppercase tracking-widest;
+}
+.project__button {
+  @apply text-white border-0 inline-block px-4 py-1 mx-2 rounded-md bg-violet-800 transition ease-in-out delay-150 hover:scale-110 hover:bg-violet-950 duration-700;
+}
+.project__desc {
+  @apply text-lg font-light text-justify leading-8 m-2;
+}
+.project__tags {
+  @apply flex flex-row;
+}
+.project__tags--bg {
+  @apply px-2 py-1 bg-white border-0 rounded-sm me-2;
 }
 
 /* Footer */
