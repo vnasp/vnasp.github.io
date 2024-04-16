@@ -1,14 +1,5 @@
 export const ProjectData = [
   {
-    id: 1,
-    title: "Ludorata",
-    about: "E-commerce blabla",
-    tags: ["Prestashop, HTML, CSS"],
-    demo: "#",
-    github: "#",
-    image: "./assets/img/ludorata.png"
-  },
-  {
     id: 2,
     title: "bigos.cl",
     about: "Implementación de e-commerce Prestashop. Carga de productos, instalación de blog, pluggins, pasarelas de pagos nacionales (MercadoPago, Webpay, Flow), sistema de facturación electrónica, punto de venta. Personalización de plantillas TPL y correos transaccionales de Prestashop. Integración de MercadoLibre. Generación de GoogleSheets vinculadas a MySQL/SyncWith.",
@@ -20,8 +11,8 @@ export const ProjectData = [
       "CSS3",
       "GoogleSheets"
     ],
-    demo: "no disponible",
-    github: "no disponible",
+    demo: "https://www.bigos.cl",
+    github: "",
     image: "./assets/img/bigos.jpg",
   },
   {
@@ -36,8 +27,8 @@ export const ProjectData = [
       "HTML5",
       "CSS3"
     ],
-    demo: "no disponible",
-    github: "no disponible",
+    demo: "https://www.laboquilla.cl",
+    github: "",
     image: "./assets/img/laboquilla.jpg",
   },
   {
@@ -86,7 +77,7 @@ export const ProjectData = [
       "HTML5",
       "CSS3"
     ],
-    demo: "no disponible",
+    demo: "https://vnasp.github.io/restaurant-frontend-react-user/",
     github: "no disponible",
     image: "./assets/img/mamamia.jpg",
   },
