@@ -18,7 +18,6 @@ export const ProjectData = [
   {
     id: 3,
     title: "laboquilla.cl",
-    "type": "E-commerce",
     about: "Implementación de catálogo online en Prestashop. Integración de addons, punto de venta y sistema de facturación electrónica. Personalización de plantillas TPL de Prestashop. Personalización de plantillas TPL de Prestashop.",
     tags: [
       "Prestashop",
@@ -34,7 +33,6 @@ export const ProjectData = [
   {
     id: 4,
     title: "ludorata.cl",
-    "type": "E-commerce",
     about: "Implementación de e-commerce Prestashop. Carga de productos, instalación de blog, pluggins, pasarelas de pagos nacionales (MercadoPago, Webpay, Flow), sistema de facturación electrónica, punto de venta. Personalización de plantillas TPL y correos transaccionales de Prestashop. Integración de MercadoLibre. Generación de GoogleSheets vinculadas a MySQL/SyncWith.",
     tags: [
       "Prestashop",
@@ -50,11 +48,10 @@ export const ProjectData = [
   {
     id: 5,
     title: "NaturalPic",
-    "type": "Galeria",
-    about: "Desarrollo de galería en ReactJS, framework Bootstrap, CSS3 personalizado, Javascript. Información se obtiene desde archivo JSON. Diseño original, temático y responsive. Con lista de favoritos y buscador.",
+    about: "Desarrollo de galería en ReactJS, framework Bootstrap, CSS3 personalizado, JavaScript. Información se obtiene desde archivo JSON. Diseño original, temático y responsive. Con lista de favoritos y buscador.",
     tags: [
       "ReactJS",
-      "Javascript",
+      "JavaScript",
       "JSON",
       "Bootstrap",
       "HTML5",
@@ -65,30 +62,12 @@ export const ProjectData = [
     image: "./assets/img/naturalpic.jpg",
   },
   {
-    id: 6,
-    title: "MamaMia",
-    "type": "E-commerce",
-    about: "Desarrollo de carrito de compra en ReactJS, framework Bootstrap, CSS3 personalizado, Javascript. Menú se obtiene desde archivo JSON. Diseño original, temático y responsive. Con cupón de descuento y puntos de fidelización.",
-    tags: [
-      "ReactJS",
-      "Javascript",
-      "JSON",
-      "Bootstrap",
-      "HTML5",
-      "CSS3"
-    ],
-    demo: "https://vnasp.github.io/restaurant-frontend-react-user/",
-    github: "no disponible",
-    image: "./assets/img/mamamia.jpg",
-  },
-  {
     id: 7,
     title: "LikeMe",
-    "type": "Red Social",
-    about: "Desarrollo de prototipo de red social en ReactJS, framework Bootstrap, CSS3, Javascript. Información almacenada con PostgreSQL y obtenida mediante operaciones CRUD. Diseño original, temático y responsive.",
+    about: "Desarrollo de prototipo de red social en ReactJS, framework Bootstrap, CSS3, JavaScript. Información almacenada con PostgreSQL y obtenida mediante operaciones CRUD. Diseño original, temático y responsive.",
     tags: [
       "ReactJS",
-      "Javascript",
+      "JavaScript",
       "PostgreSQL",
       "Bootstrap",
       "HTML5",
@@ -101,7 +80,6 @@ export const ProjectData = [
   {
     id: 8,
     title: "Sintesis de Conocimientos",
-    "type": "Knowledge Base",
     about: "Implementación de base de conocimientos con Wordpress. Migración desde Joomla. Integración de addons, personalización de diseño, desarrollo de funcionalidades.",
     tags: [
       "Wordpress",
@@ -113,5 +91,51 @@ export const ProjectData = [
     demo: "no disponible",
     github: "no disponible",
     image: "./assets/img/sintesis.jpg",
-  }
+  },
+  {
+    id: 9,
+    title: "Pizzeria Mamma Mia",
+    about: "Aplicación web SPA desarrollada en React Vite con un enfoque UI de diseño skeumorphismo. Con carrito de compras, programa de fidelización y página de confirmación. Se utilizaron hooks como useState, useRef, manejo de estados con ContextAPI, ReactRouter para una navegación fluida dentro de la aplicación. El contenido del menú se extrae de archivos JSON para un rápido mantenimiento. La librería Leaflet proporciona un mapa interactivo de los locales y la librería SweetAlert2 para popups informativos. El diseño se realizó con Bootstrap y CSS Vanilla.",
+    tags: [
+      "ReactJS",
+      "Vite",
+      "JavaScript",
+      "JSON",
+      "CSS3",
+      "HTML5",
+    ],
+    demo: "https://vnasp.github.io/restaurant-frontend-react-user",
+    github: "https://github.com/vnasp/restaurant-frontend-react-user",
+    image: "./projects/pizzeria.png",
+  },
+  {
+  id: 10,
+  title: "Revista SuperHero",
+  about: "Aplicación web SPA desarrollada en HTML con un enfoque UI de diseño neumorfismo. Con jQuery para la manipulación del DOM y validaciones de búsqueda, consumo de API mediante Ajax, la librería ChartJS para un gráfico tipo radar ad-hoc con las características, y TailwindCSS para diseñar con flexibilidad.",
+  tags: [
+    "HTML",
+    "jQuery",
+    "JavaScript",
+    "TailwindCSS",
+  ],
+  demo: "https://vnasp.github.io/superheroes-frontend-user",
+  github: "https://github.com/vnasp/superheroes-frontend-user",
+  image: "./projects/superhero.png",
+  },
+  {
+    id: 11,
+    title: "Portafolio",
+    about: "Aplicación web SPA desarrollada en React Vite con un enfoque UI de flat design. Con secciones como sobre mi, listado de proyectos y skill, curriculum descargable. Se utilizó ReactRouter para una navegación fluida dentro de la aplicación. El contenido se extrae de archivo JS para un rápido mantenimiento. La librería SwiperJS proporciona un carrusel de imágenes interactivo. El diseño se realizó con TailwindCSS y FontAwesome para los iconos.",
+    tags: [
+      "ReactJS",
+      "Vite",
+      "JavaScript",
+      "TailwindCSS",
+      "CSS3",
+      "HTML5",
+    ],
+    demo: "https://vnasp.github.io/",
+    github: "https://github.com/vnasp/vnasp.github.io",
+    image: "./projects/portafolio.png",
+    }
 ]

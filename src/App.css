@@ -185,13 +185,13 @@
 
 }
 .project__header {
-  @apply flex flex-row justify-between items-center mb-4;
+  @apply flex flex-row justify-start items-center gap-4;
 }
 .project__name {
-  @apply text-xl uppercase tracking-widest;
+  @apply text-xl uppercase tracking-widest mb-4 ;
 }
 .project__button {
-  @apply text-white border-0 inline-block px-4 py-1 mx-2 rounded-md bg-violet-800 transition ease-in-out delay-150 hover:scale-110 hover:bg-violet-950 duration-700;
+  @apply text-sm text-white border-0 inline-block px-4 py-1 me-2 rounded-md bg-violet-800 transition ease-in-out delay-150 hover:scale-110 hover:bg-violet-950 duration-700;
 }
 .project__desc {
   @apply text-lg font-light text-justify leading-8 m-2;
@@ -200,7 +200,7 @@
   @apply flex flex-row;
 }
 .project__tags--bg {
-  @apply px-2 py-1 bg-white border-0 rounded-sm me-2;
+  @apply text-lg font-light px-2 py-1 me-2;
 }
 
 /* Footer */

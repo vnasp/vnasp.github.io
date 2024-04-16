@@ -20,39 +20,33 @@ const Projects = ({ data }) => {
       onSlideChange={() => console.log("slide change")}
       pagination={pagination}
       modules={[Pagination]}
-      className="mySwiper"
+      className="px-14"
     >
       {data.map((project, index) => (
-        <SwiperSlide key={index} className="flex flex-col">
-          <div className="project__header">
-            <img src={project.image} alt={project.name} className="w-1/4" />
-            <div clasName="flex flex-col">
-              <h4 className="project__name">{project.title}</h4>
-              <div className="inline-block">
-                {project.github && (
-                  <a href={project.github} className="project__button">
-                    GitHub
-                  </a>
-                )}
-                {project.demo && (
-                  <a href={project.demo} className="project__button">
-                    Demo
-                  </a>
-                )}
-              </div>
-            </div>
-          </div>
+        <SwiperSlide key={index} className="flex flex-col items-center">
+          <img src={project.image} alt={project.name} className="w-3/4" />
+          <h4 className="project__name">{project.title}</h4>
           <div>
             <p className="project__desc">{project.about}</p>
-            <div className="project__tags">
-              {project.tags.map((tag, tagIndex) => {
-                return (
-                  <label key={tagIndex} className="project__tags--bg">
-                    {tag}
-                  </label>
-                );
-              })}
-            </div>
+            {project.tags.map((tag, tagIndex) => {
+              return (
+                <label key={tagIndex} className="project__tags--bg">
+                  {tag}
+                </label>
+              );
+            })}
+          </div>
+          <div className="inline-block">
+            {project.github && (
+              <a href={project.github} className="project__button">
+                GitHub
+              </a>
+            )}
+            {project.demo && (
+              <a href={project.demo} className="project__button">
+                Demo
+              </a>
+            )}
           </div>
         </SwiperSlide>
       ))}
