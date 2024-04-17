@@ -38,7 +38,14 @@ const Tags = ({ data, tagCounts, onSkillSelect, selectedSkill }) => {
                         ? "navigation__link--active"
                         : ""
                     }`}
-                    onClick={() => onSkillSelect(skill.name)}
+                    onClick={() => {
+                      onSkillSelect(skill.name);
+                      if (window.innerWidth < 768) {
+                        document.getElementById('swiperProjects').scrollIntoView({
+                          behavior: 'smooth'
+                        });
+                      }
+                    }}
                   >
                     {skill.name} ({frequency})
                   </label>

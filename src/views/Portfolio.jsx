@@ -5,9 +5,10 @@ import { SkillsData } from "../data/SkillsData";
 import Tags from "../components/Tags";
 
 const Portfolio = () => {
+  const [selectedSkill, setSelectedSkill] = useState(null);
+
   const countTags = (projects) => {
     const tagCount = {};
-
     projects.forEach((project) => {
       project.tags.forEach((tag) => {
         tagCount[tag] = (tagCount[tag] || 0) + 1;
@@ -17,9 +18,6 @@ const Portfolio = () => {
   };
 
   const tagsUsageCount = countTags(ProjectData);
-  console.log(tagsUsageCount);
-
-  const [selectedSkill, setSelectedSkill] = useState(null);
 
   const handleSkillSelect = (skill) => {
     setSelectedSkill(skill);

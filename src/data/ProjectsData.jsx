@@ -12,7 +12,7 @@ export const ProjectData = [
     ],
     demo: "https://www.bigos.cl",
     github: "",
-    image: "./projects/bigos.jpg",
+    image: "./projects/bigos.webp",
   },
   {
     title: "La Boquilla",
@@ -26,7 +26,7 @@ export const ProjectData = [
     ],
     demo: "https://www.laboquilla.cl",
     github: "",
-    image: "./projects/laboquilla.jpg",
+    image: "./projects/laboquilla.webp",
   },
   {
     title: "NaturalPic",
@@ -40,7 +40,7 @@ export const ProjectData = [
     ],
     demo: "https://vnasp.github.io/naturalpic-frontend-user",
     github: "https://github.com/vnasp/naturalpic-frontend-user",
-    image: "./projects/naturalpic.jpg",
+    image: "./projects/naturalpic.webp",
   },
 /*   {
    title: "LikeMe",
@@ -56,7 +56,7 @@ export const ProjectData = [
     ],
     demo: "",
     github: "https://github.com/vnasp/likeme-frontend-backend",
-    image: "./projects/likeme.jpg",
+    image: "./projects/likeme.webp",
   },*/
   {
     title: "Sintesis de Conocimientos",
@@ -70,7 +70,7 @@ export const ProjectData = [
     ],
     demo: "https://sintesis.med.uchile.cl",
     github: "",
-    image: "./projects/sintesis.jpg",
+    image: "./projects/sintesis.webp",
   },
   {
     title: "Delta Sport US",
@@ -84,7 +84,7 @@ export const ProjectData = [
     ],
     demo: "https://vnasp.github.io/catalog-frontend-react-user",
     github: "https://github.com/vnasp/catalog-frontend-react-user",
-    image: "./projects/deltasportus.jpg",
+    image: "./projects/deltasportus.webp",
   },
   {
     title: "Marketplace (Frontend)",
@@ -100,7 +100,7 @@ export const ProjectData = [
     ],
     demo: "https://mimarketlatino.netlify.app",
     github: "https://vnasp.github.io/restaurant-frontend-react-user",
-    image: "./projects/marketplace-frontend.jpg",
+    image: "./projects/marketplace-frontend.webp",
     },
     {
       title: "Marketplace (Backend)",
@@ -114,7 +114,7 @@ export const ProjectData = [
       ],
       demo: "https://marketplace-backend-react-user-xwj0.onrender.com/api/v1/docs",
       github: "https://github.com/vnasp/marketplace-backend-react-user",
-      image: "./projects/marketplace-backend.jpg",
+      image: "./projects/marketplace-backend.webp",
       },
   {
     title: "Pizzeria Mamma Mia",
@@ -131,7 +131,7 @@ export const ProjectData = [
     ],
     demo: "https://vnasp.github.io/restaurant-frontend-react-user",
     github: "https://github.com/vnasp/restaurant-frontend-react-user",
-    image: "./projects/pizzeria.jpg",
+    image: "./projects/pizzeria.webp",
   },
   { 
     title: "Agencia de Viajes",
@@ -143,7 +143,7 @@ export const ProjectData = [
   ],
   demo: "https://vnasp.github.io/agencia-frontend-user",
   github: "https://github.com/vnasp/agencia-frontend-user",
-  image: "./projects/agencia.jpg",
+  image: "./projects/agencia.webp",
   },
   {
   title: "Revista SuperHero",
@@ -156,7 +156,7 @@ export const ProjectData = [
   ],
   demo: "https://vnasp.github.io/superheroes-frontend-user",
   github: "https://github.com/vnasp/superheroes-frontend-user",
-  image: "./projects/superhero.jpg",
+  image: "./projects/superhero.webp",
   },
   {
     title: "Portafolio",
@@ -170,7 +170,7 @@ export const ProjectData = [
     ],
     demo: "https://vnasp.github.io",
     github: "https://github.com/vnasp/vnasp.github.io",
-    image: "./projects/portafolio.jpg",
+    image: "./projects/portafolio.webp",
     },
     {
       title: "VerdeSapiens",
@@ -184,6 +184,6 @@ export const ProjectData = [
       ],
       demo: "https://verdesapiens.netlify.app",
       github: "https://github.com/vnasp/verdesapiens-frontend-user",
-      image: "./projects/verdesapiens.jpg",
+      image: "./projects/verdesapiens.webp",
       }
 ]

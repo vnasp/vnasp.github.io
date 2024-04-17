@@ -12,7 +12,7 @@ const About = () => {
     <main className="main">
       <section className="w-2/5 about__photo mb-10 lg:mb-0">
         <img
-          src="./assets/img/about.jpg"
+          src="./assets/img/about.webp"
           alt="Valentina, Full Stack Developer Chile"
           className="about__photo--img"
         />

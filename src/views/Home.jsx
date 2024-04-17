@@ -5,7 +5,7 @@ const Home = () => {
     <main className="main">
       <section className="w-2/5 home__photo">
         <img
-          src="./assets/img/home.png"
+          src="./assets/img/home.webp"
           alt="Desarrolladora Web"
         />
       </section>

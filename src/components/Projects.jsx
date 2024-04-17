@@ -1,35 +1,32 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
+import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-// import required modules
-import { Pagination, Navigation } from "swiper/modules";
 
 const Projects = ({ data }) => {
   return (
-    <Swiper navigation={true} modules={[Navigation]} className="w-full mt-10">
+    <Swiper navigation={true} modules={[Navigation]} className="projects__swiper" id="swiperProjects">
       {data.map((project, index) => (
         <SwiperSlide
           key={index}
-          className="flex flex-col items-center justify-center"
         >
           <div className="w-full lg:w-3/4">
             <img
               src={project.image}
               alt={project.name}
-              className="w-full rounded-lg shadow-md object-cover"
+              className="project__image"
               />
           </div>
-          <h4 className="project__name my-4">{project.title}</h4>
-          <div className="flex flex-row gap-4">
+          <h4 className="project__name">{project.title}</h4>
+          <div className="project__share">
             {project.github && (
-              <a href={project.github} className="project__button">
+              <a href={project.github} className="project__share--btn">
                 GitHub
               </a>
             )}
             {project.demo && (
-              <a href={project.demo} className="project__button">
+              <a href={project.demo} className="project__share--btn">
                 Demo
               </a>
             )}

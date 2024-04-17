@@ -9,11 +9,11 @@ const Skills = () => {
   return (
     <main className="main">
       <section className="w-2/5 skills__photo">
-        <img src="./assets/img/skills.png" alt="Full Stack Developer Chile" />
+        <img src="./assets/img/skills.webp" alt="Full Stack Developer Chile" />
       </section>
       <section className="skills">
         {data.map((item, index) => (
-          <div key={index}>
+          <div key={index} className="mx-4">
             <label className="skills__type--name">{item.type}</label>
             <div className="skills__type--list">
               {item.list.map((skill) => (
