@@ -75,7 +75,7 @@
 
 /* Main */
 .main {
-  @apply flex flex-col lg:flex-row grow justify-center items-center my-10 px-10 lg:p-0 -mt-8;
+  @apply flex flex-col lg:flex-row grow justify-center items-center px-10 lg:p-0 -mt-8;
 }
 
 /* Home */
@@ -167,6 +167,10 @@
 }
 
 /* Projects */
+.projects__title {
+  @apply text-center text-2xl md:text-4xl mb-10;
+}
+
 .projects__tags {
   @apply flex flex-wrap justify-center gap-2 mb-4;
 }
@@ -188,10 +192,10 @@
   @apply flex flex-row justify-start items-center gap-4;
 }
 .project__name {
-  @apply text-xl uppercase tracking-widest mb-4 ;
+  @apply text-xl uppercase tracking-widest ;
 }
 .project__button {
-  @apply text-sm text-white border-0 inline-block px-4 py-1 me-2 rounded-md bg-violet-800 transition ease-in-out delay-150 hover:scale-110 hover:bg-violet-950 duration-700;
+  @apply text-sm text-white border-0 px-8 py-1 rounded-md bg-violet-800 transition ease-in-out delay-150 hover:scale-110 hover:bg-violet-950 duration-700;
 }
 .project__desc {
   @apply text-lg font-light text-justify leading-8 m-2;
@@ -201,6 +205,14 @@
 }
 .project__tags--bg {
   @apply text-lg font-light px-2 py-1 me-2;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after{
+  @apply text-violet-800;
+  font-size:30px;
+}
+.swiper-slide-active{
+@apply px-8;
 }
 
 /* Footer */

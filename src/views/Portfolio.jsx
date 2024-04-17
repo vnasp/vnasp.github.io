@@ -35,8 +35,8 @@ const Portfolio = () => {
       <section className="w-2/5">
         <Tags data={SkillsData} tagCounts={tagsUsageCount} onSkillSelect={handleSkillSelect} selectedSkill={selectedSkill}/>
       </section>
-      <section className="w-3/5">
-        <h3 className="about__title">Proyectos</h3>
+      <section className="w-3/5 px-10">
+        <h3 className="projects__title">Proyectos</h3>
         <Projects data={filteredProjects} />
       </section>
     </main>

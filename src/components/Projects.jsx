@@ -1,42 +1,23 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
+// import required modules
+import { Pagination, Navigation } from "swiper/modules";
 
 const Projects = ({ data }) => {
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + "</span>";
-    },
-  };
-
   return (
-    <Swiper
-      spaceBetween={80}
-      slidesPerView={1}
-      keyboard={{ enabled: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
-      pagination={pagination}
-      modules={[Pagination]}
-      className="px-14"
-    >
+    <Swiper navigation={true} modules={[Navigation]} className="">
       {data.map((project, index) => (
-        <SwiperSlide key={index} className="flex flex-col items-center">
-          <img src={project.image} alt={project.name} className="w-3/4" />
-          <h4 className="project__name">{project.title}</h4>
-          <div>
-            <p className="project__desc">{project.about}</p>
-            {project.tags.map((tag, tagIndex) => {
-              return (
-                <label key={tagIndex} className="project__tags--bg">
-                  {tag}
-                </label>
-              );
-            })}
-          </div>
-          <div className="inline-block">
+        <SwiperSlide
+          key={index}
+          className="flex flex-col items-center justify-center"
+        >
+          <img src={project.image} alt={project.name} className="w-2/3 rounded-lg shadow-md" />
+         
+            <h4 className="project__name my-4">{project.title}</h4>
+            <div className="flex flex-row gap-4">
             {project.github && (
               <a href={project.github} className="project__button">
                 GitHub
@@ -47,6 +28,10 @@ const Projects = ({ data }) => {
                 Demo
               </a>
             )}
+           
+          </div>
+          <div>
+            <p className="project__desc">{project.about}</p>
           </div>
         </SwiperSlide>
       ))}
