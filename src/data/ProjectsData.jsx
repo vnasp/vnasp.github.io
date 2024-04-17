@@ -1,6 +1,6 @@
 export const ProjectData = [
   {
-    title: "bigos.cl",
+    title: "Bigos",
     about: "Implementación de e-commerce robusto usando Prestashop, con funciones avanzadas como carga de productos, sistema de facturación electrónica, y pasarelas de pago nacionales (MercadoPago, Webpay, Flow). Personalización de plantillas TPL y correos transaccionales, además de integración directa con MercadoLibre y Google Sheets para sincronización con MySQL.",
     tags: [
       "Prestashop",
@@ -12,10 +12,10 @@ export const ProjectData = [
     ],
     demo: "https://www.bigos.cl",
     github: "",
-    image: "./assets/img/bigos.jpg",
+    image: "./projects/bigos.jpg",
   },
   {
-    title: "laboquilla.cl",
+    title: "La Boquilla",
     about: "Desarrollo de un catálogo online en Prestashop, incluyendo integración de addons, sistema de facturación electrónica y personalización extensiva de plantillas TPL. La solución permite una gestión eficiente de productos y ventas, enfocado en una experiencia de usuario optimizada.",
     tags: [
       "Prestashop",
@@ -26,7 +26,7 @@ export const ProjectData = [
     ],
     demo: "https://www.laboquilla.cl",
     github: "",
-    image: "./assets/img/laboquilla.jpg",
+    image: "./projects/laboquilla.jpg",
   },
   {
     title: "NaturalPic",
@@ -38,9 +38,9 @@ export const ProjectData = [
       "JSON",
       "Bootstrap",
     ],
-    demo: "",
+    demo: "https://vnasp.github.io/naturalpic-frontend-user",
     github: "https://github.com/vnasp/naturalpic-frontend-user",
-    image: "./assets/img/naturalpic.jpg",
+    image: "./projects/naturalpic.jpg",
   },
   {
     title: "LikeMe",
@@ -56,7 +56,7 @@ export const ProjectData = [
     ],
     demo: "",
     github: "https://github.com/vnasp/likeme-frontend-backend",
-    image: "./assets/img/likeme.jpg",
+    image: "./projects/likeme.jpg",
   },
   {
     title: "Sintesis de Conocimientos",
@@ -70,11 +70,11 @@ export const ProjectData = [
     ],
     demo: "https://sintesis.med.uchile.cl",
     github: "",
-    image: "./projects/sintesis.png",
+    image: "./projects/sintesis.jpg",
   },
   {
     title: "Delta Sport US",
-    about: "Aplicación SPA en React Vite con funcionalidades tipo catálogo diseñado para clubes amateur y torneos, donde los usuarios pueden personalizar y solicitar cotizaciones para ropa deportiva. SwiperJS para mostrar distintos diseños de cada prenda. El contenido se gestiona a través de archivos JSON para facilitar la actualización. Diseño con TailwindCSS.",
+    about: "Aplicación SPA en React y Vite con funcionalidades tipo catálogo interactivo donde los usuarios pueden y solicitar cotizaciones para ropa deportiva. Utiliza SwiperJS para una visualización dinámica de los diferentes modelos. El contenido se gestiona a través de archivos JSON para facilitar la actualización. Todo el diseño está implementado con TailwindCSS.",
     tags: [
       "ReactJS",
       "Vite",
@@ -82,9 +82,9 @@ export const ProjectData = [
       "TailwindCSS",
       "SwiperJS",
     ],
-    demo: "https://vnasp.github.io/catalog-frontend-react-user/",
+    demo: "https://vnasp.github.io/catalog-frontend-react-user",
     github: "https://github.com/vnasp/catalog-frontend-react-user",
-    image: "./projects/deltasportus.png",
+    image: "./projects/deltasportus.jpg",
   },
   {
     title: "Marketplace (Frontend)",
@@ -98,9 +98,9 @@ export const ProjectData = [
       "CSS3",
       "SwiperJS",
     ],
-    demo: "https://mimarketlatino.netlify.app/",
-    github: "https://vnasp.github.io/restaurant-frontend-react-user/",
-    image: "./projects/marketplace-frontend.png",
+    demo: "https://mimarketlatino.netlify.app",
+    github: "https://vnasp.github.io/restaurant-frontend-react-user",
+    image: "./projects/marketplace-frontend.jpg",
     },
     {
       title: "Marketplace (Backend)",
@@ -112,13 +112,13 @@ export const ProjectData = [
         "PostgreSQL",
         "REST API",
       ],
-      demo: "https://marketplace-backend-react-user-xwj0.onrender.com/api/v1/docs/",
+      demo: "https://marketplace-backend-react-user-xwj0.onrender.com/api/v1/docs",
       github: "https://github.com/vnasp/marketplace-backend-react-user",
-      image: "./projects/marketplace-backend.png",
+      image: "./projects/marketplace-backend.jpg",
       },
   {
     title: "Pizzeria Mamma Mia",
-    about: "SPA para pizzería desarrollada en React y Vite, con un diseño de UI basado en skeumorfismo. El contenido se gestiona a través de archivos JSON para facilitar la actualización. Incluye un sistema de pedidos interactivo, mapas con Leaflet y alertas con SweetAlert2, todo integrado en un diseño responsivo y atractivo usando Bootstrap y CSS puro.",
+    about: "Aplicación SPA para pizzería desarrollada en React y Vite, con un diseño de UI basado en skeumorfismo. El contenido se gestiona a través de archivos JSON para facilitar la actualización. Incluye un sistema de pedidos interactivo, mapas con Leaflet y alertas con SweetAlert2, todo integrado en un diseño responsivo y atractivo usando Bootstrap y CSS puro.",
     tags: [
       "ReactJS",
       "Vite",
@@ -131,7 +131,7 @@ export const ProjectData = [
     ],
     demo: "https://vnasp.github.io/restaurant-frontend-react-user",
     github: "https://github.com/vnasp/restaurant-frontend-react-user",
-    image: "./projects/pizzeria.png",
+    image: "./projects/pizzeria.jpg",
   },
   { 
     title: "Agencia de Viajes",
@@ -141,13 +141,13 @@ export const ProjectData = [
     "Bootstrap",
     "Sass",
   ],
-  demo: "https://vnasp.github.io/agencia-frontend-user/",
-  github: "https://github.com/vnasp/agencia-frontend-user/",
-  image: "./projects/agencia.png",
+  demo: "https://vnasp.github.io/agencia-frontend-user",
+  github: "https://github.com/vnasp/agencia-frontend-user",
+  image: "./projects/agencia.jpg",
   },
   {
   title: "Revista SuperHero",
-  about: "SPA informativa sobre superhéroes, desarrollada en HTML con jQuery para la manipulación del DOM y Ajax para el consumo de APIs. Incluye gráficos interactivos con ChartJS y un diseño neumórfico implementado con TailwindCSS.",
+  about: "Aplicación SPA informativa sobre superhéroes, desarrollada en HTML con jQuery para la manipulación del DOM y Ajax para el consumo de APIs. Incluye gráficos interactivos con ChartJS y un diseño neumórfico implementado con TailwindCSS.",
   tags: [
     "HTML",
     "jQuery",
@@ -156,11 +156,11 @@ export const ProjectData = [
   ],
   demo: "https://vnasp.github.io/superheroes-frontend-user",
   github: "https://github.com/vnasp/superheroes-frontend-user",
-  image: "./projects/superhero.png",
+  image: "./projects/superhero.jpg",
   },
   {
     title: "Portafolio",
-    about: "SPA de portafolio personal en React y Vite, mostrando proyectos, habilidades y un CV descargable. Utiliza React Router para la navegación y SwiperJS para un carrusel de proyectos, con un diseño en flat design realizado con TailwindCSS.",
+    about: "Aplicación SPA de portafolio personal en React y Vite, mostrando proyectos, habilidades y un CV descargable. Utiliza React Router para la navegación y SwiperJS para un carrusel de proyectos, con un diseño en flat design realizado con TailwindCSS.",
     tags: [
       "ReactJS",
       "Vite",
@@ -168,9 +168,9 @@ export const ProjectData = [
       "TailwindCSS",
       "SwiperJS",
     ],
-    demo: "https://vnasp.github.io/",
+    demo: "https://vnasp.github.io",
     github: "https://github.com/vnasp/vnasp.github.io",
-    image: "./projects/portafolio.png",
+    image: "./projects/portafolio.jpg",
     },
     {
       title: "VerdeSapiens",
@@ -182,8 +182,8 @@ export const ProjectData = [
         "TailwindCSS",
         "SwiperJS",
       ],
-      demo: "https://verdesapiens.netlify.app/",
-      github: "https://github.com/vnasp/verdesapiens-frontend-user/",
-      image: "./projects/verdesapiens.png",
+      demo: "https://verdesapiens.netlify.app",
+      github: "https://github.com/vnasp/verdesapiens-frontend-user",
+      image: "./projects/verdesapiens.jpg",
       }
 ]

@@ -19,20 +19,18 @@ const About = () => {
       </section>
       <section className="about">
         <p className="about__text">
-          Mi nombre es <strong>Valentina</strong> y soy desarrolladora{" "}
-          <strong>Full Stack Javascript</strong>, entre otras cosas. Desde hace más de
+          Mi nombre es <strong>Valentina</strong>. Desde hace
           10 años comencé diseñando con HTML, incursioné en la gestión de
-          distintos CMS y en el 2024 di el gran paso:
-          Full Stack Javascript. Ahora diseño aplicaciones web y convierto tus
+          distintos CMS y desde el 2023, soy Full Stack Javascript. Ahora, diseño aplicaciones web y convierto tus
           ideas en realidad digital.
         </p>
         <p className="about__text">
-          Me considero una persona multi-potencial. Además de Full Stack JS,
+          Además de Full Stack JS,
           tengo mi grado de Magíster en Bioquímica y título de Administración de
           Empresas. Me encanta aprender, por lo que la programación es una
-          perfecta fusión de creatividad y análisis que desafía mi mente. Esta diversidad de intereses y habilidades me permite
-          abordar problemas desde múltiples perspectivas y ofrecer un valor
-          añadido en cada proyecto en el que trabajo.
+        combinación de creatividad y análisis que desafía mi mente. Esta diversidad de intereses y habilidades me permite
+          abordar problemas desde múltiples perspectiva y ofrecer un valor
+          agregado en cada proyecto.
         </p>
         <p className="about__text">
           En mi tiempo libre, disfruto de las actividades que me llenen de

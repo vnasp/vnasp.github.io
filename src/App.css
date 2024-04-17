@@ -127,7 +127,7 @@
 }
 
 .about__hobbies {
-  @apply flex flex-row gap-2 lg:gap-10 text-4xl mt-5;
+  @apply flex flex-row gap-2 lg:gap-6 text-3xl mt-5;
 }
 .about__tooltip {
   @apply relative m-4 flex justify-center;
@@ -193,11 +193,14 @@
 
 /* Skills */
 .skills {
-  @apply flex flex-col justify-between w-screen lg:w-3/5 mb-24 md:mb-0 px-10;
+  @apply flex flex-col justify-between w-screen lg:w-3/5 mb-28 md:mb-0 px-10;
 
 }
 .skills__title {
   @apply text-center text-2xl md:text-4xl;
+}
+.skills__photo {
+  @apply hidden lg:flex justify-center items-center;
 }
 
 .skills__type {
