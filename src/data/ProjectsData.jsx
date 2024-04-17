@@ -73,6 +73,20 @@ export const ProjectData = [
     image: "./projects/sintesis.png",
   },
   {
+    title: "Delta Sport US",
+    about: "Aplicación SPA en React Vite con funcionalidades tipo catálogo diseñado para clubes amateur y torneos, donde los usuarios pueden personalizar y solicitar cotizaciones para ropa deportiva. SwiperJS para mostrar distintos diseños de cada prenda. El contenido se gestiona a través de archivos JSON para facilitar la actualización. Diseño con TailwindCSS.",
+    tags: [
+      "ReactJS",
+      "Vite",
+      "JSON",
+      "TailwindCSS",
+      "SwiperJS",
+    ],
+    demo: "https://vnasp.github.io/catalog-frontend-react-user/",
+    github: "https://github.com/vnasp/catalog-frontend-react-user",
+    image: "./projects/deltasportus.png",
+  },
+  {
     title: "Marketplace (Frontend)",
     about: "Aplicación SPA en React y Vite con funcionalidades completas para gestión de carrito de compras, perfiles de usuario y favoritos. Conectada a través de Axios a una API para contenido dinámico, utilizando React Router para navegación y SwiperJS para carruseles de imágenes. Diseñada con Bootstrap.",
     tags: [
@@ -104,7 +118,7 @@ export const ProjectData = [
       },
   {
     title: "Pizzeria Mamma Mia",
-    about: "SPA para pizzería desarrollada en React y Vite, con un diseño de UI basado en skeumorfismo. Incluye un sistema de pedidos interactivo, mapas con Leaflet y alertas con SweetAlert2, todo integrado en un diseño responsivo y atractivo usando Bootstrap y CSS puro.",
+    about: "SPA para pizzería desarrollada en React y Vite, con un diseño de UI basado en skeumorfismo. El contenido se gestiona a través de archivos JSON para facilitar la actualización. Incluye un sistema de pedidos interactivo, mapas con Leaflet y alertas con SweetAlert2, todo integrado en un diseño responsivo y atractivo usando Bootstrap y CSS puro.",
     tags: [
       "ReactJS",
       "Vite",

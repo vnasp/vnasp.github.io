@@ -10,7 +10,7 @@ const Tags = ({ data, tagCounts, onSkillSelect, selectedSkill }) => {
 
   return (
     <>
-      <p className="text-center mb-6">Selecciona una habilidad</p>
+      <p className="text-center mb-6">Filtra por una habilidad</p>
       <div className="projects__tags"
 >
       <label
@@ -40,7 +40,7 @@ const Tags = ({ data, tagCounts, onSkillSelect, selectedSkill }) => {
                     }`}
                     onClick={() => onSkillSelect(skill.name)}
                   >
-                    {skill.name}
+                    {skill.name} ({frequency})
                   </label>
                 );
               })}

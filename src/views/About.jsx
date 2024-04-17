@@ -10,15 +10,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const About = () => {
   return (
     <main className="main">
-      <section className="w-2/5 about__photo">
+      <section className="w-2/5 about__photo mb-10 lg:mb-0">
         <img
           src="./assets/img/about.jpg"
           alt="Valentina, Full Stack Developer Chile"
           className="about__photo--img"
         />
       </section>
-      <section className="w-3/5 about">
-        <h3 className="about__title">Sobre mi</h3>
+      <section className="about">
         <p className="about__text">
           Mi nombre es <strong>Valentina</strong> y soy desarrolladora{" "}
           <strong>Full Stack Javascript</strong>, entre otras cosas. Desde hace más de

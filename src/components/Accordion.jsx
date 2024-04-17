@@ -13,18 +13,8 @@ const Accordion = ({ data }) => {
     <>
       {data.map((item, index) => (
         <div key={item.type}>
-          <button
-            className="skills__type--name"
-            onClick={() => toggleAccordion(index)}
-          >
-            {item.type}{" "}
-            {openIndex === index ? (
-              <FontAwesomeIcon icon={faChevronUp} />
-            ) : (
-              <FontAwesomeIcon icon={faChevronDown} />
-            )}
-          </button>
-          {openIndex === index && (
+        <label className="skills__type--name">{item.type}</label>
+         
             <div className="skills__type--list">
               {item.list.map((skill) => (
                 <div key={skill.name} className="skills__skill">
@@ -33,7 +23,7 @@ const Accordion = ({ data }) => {
                 </div>
               ))}
             </div>
-          )}
+         
         </div>
       ))}
     </>

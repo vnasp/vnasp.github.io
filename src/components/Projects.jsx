@@ -8,16 +8,21 @@ import { Pagination, Navigation } from "swiper/modules";
 
 const Projects = ({ data }) => {
   return (
-    <Swiper navigation={true} modules={[Navigation]} className="">
+    <Swiper navigation={true} modules={[Navigation]} className="w-full mt-10">
       {data.map((project, index) => (
         <SwiperSlide
           key={index}
           className="flex flex-col items-center justify-center"
         >
-          <img src={project.image} alt={project.name} className="w-2/3 rounded-lg shadow-md" />
-         
-            <h4 className="project__name my-4">{project.title}</h4>
-            <div className="flex flex-row gap-4">
+          <div className="w-full lg:w-3/4">
+            <img
+              src={project.image}
+              alt={project.name}
+              className="w-full rounded-lg shadow-md object-cover"
+              />
+          </div>
+          <h4 className="project__name my-4">{project.title}</h4>
+          <div className="flex flex-row gap-4">
             {project.github && (
               <a href={project.github} className="project__button">
                 GitHub
@@ -28,7 +33,6 @@ const Projects = ({ data }) => {
                 Demo
               </a>
             )}
-           
           </div>
           <div>
             <p className="project__desc">{project.about}</p>
