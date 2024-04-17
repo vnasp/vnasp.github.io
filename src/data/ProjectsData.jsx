@@ -44,7 +44,7 @@ export const ProjectData = [
   },
   {
     title: "LikeMe",
-    about: "Prototipo de red social desarrollada en en React y Vite con Bootstrap, que incluye operaciones CRUD sobre PostgreSQL para la gestión de usuarios. Diseño responsivo y temático con funcionalidades de interacción social como publicaciones y comentarios.",
+    about: "Prototipo de red social desarrollada en en React y Vite con Bootstrap, que incluye operaciones CRUD sobre PostgreSQL para la gestión de publicaciones. Diseño responsivo y temático con funcionalidades de interacción social como publicaciones y comentarios.",
     tags: [
       "ReactJS",
       "Vite",
