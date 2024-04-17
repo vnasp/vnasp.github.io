@@ -42,8 +42,8 @@ export const ProjectData = [
     github: "https://github.com/vnasp/naturalpic-frontend-user",
     image: "./projects/naturalpic.jpg",
   },
-  {
-    title: "LikeMe",
+/*   {
+   title: "LikeMe",
     about: "Prototipo de red social desarrollada en en React y Vite con Bootstrap, que incluye operaciones CRUD sobre PostgreSQL para la gestión de publicaciones. Diseño responsivo y temático con funcionalidades de interacción social como publicaciones y comentarios.",
     tags: [
       "ReactJS",
@@ -57,7 +57,7 @@ export const ProjectData = [
     demo: "",
     github: "https://github.com/vnasp/likeme-frontend-backend",
     image: "./projects/likeme.jpg",
-  },
+  },*/
   {
     title: "Sintesis de Conocimientos",
     about: "Rediseño y migración de plataforma de Joomla a Wordpress, optimizando la funcionalidad y el diseño. Incluye integración de addons, personalización completa y desarrollo de nuevas funcionalidades para mejorar la experiencia del usuario y la eficiencia administrativa.",
