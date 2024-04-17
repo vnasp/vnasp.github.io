@@ -1,4 +1,13 @@
+import {Fragment} from "react"
+
 const Tags = ({ data, tagCounts, onSkillSelect, selectedSkill }) => {
+
+  const getFontSize = (frequency) => {
+    if (frequency >= 4) return "text-lg";
+    if (frequency >= 2) return "text-base";
+    return "text-sm";
+  };
+
   return (
     <>
       <p className="text-center mb-6">Selecciona una habilidad</p>
@@ -13,12 +22,13 @@ const Tags = ({ data, tagCounts, onSkillSelect, selectedSkill }) => {
         Todos
       </label>
       {data.map((item, index) => {
+        
         if (item.type === "Frontend" || item.type === "Backend") {
           return (
-            <>
+            <Fragment key={index}>
               {item.list.map((skill, skillIndex) => {
                 const frequency = tagCounts[skill.name] || 0;
-                const fontSize = frequency > 2 ? "text-lg" : "text-sm";
+                const fontSize = getFontSize(frequency);
 
                 return (
                   <label
@@ -34,7 +44,7 @@ const Tags = ({ data, tagCounts, onSkillSelect, selectedSkill }) => {
                   </label>
                 );
               })}
-            </>
+            </Fragment>
           );
         }
       })}
