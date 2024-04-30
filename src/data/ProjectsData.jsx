@@ -97,6 +97,7 @@ export const ProjectData = [
       "Bootstrap",
       "CSS3",
       "SwiperJS",
+      "APIs"
     ],
     demo: "https://mimarketlatino.netlify.app",
     github: "https://vnasp.github.io/restaurant-frontend-react-user",
@@ -124,7 +125,6 @@ export const ProjectData = [
       "Vite",
       "JavaScript",
       "JSON",
-      "React Context API",
       "Leaflet",
       "SweetAlert2",
       "Bootstrap",
@@ -153,6 +153,7 @@ export const ProjectData = [
     "jQuery",
     "JavaScript",
     "TailwindCSS",
+    "APIs"
   ],
   demo: "https://vnasp.github.io/superheroes-frontend-user",
   github: "https://github.com/vnasp/superheroes-frontend-user",
@@ -185,5 +186,29 @@ export const ProjectData = [
       demo: "https://verdesapiens.netlify.app",
       github: "https://github.com/vnasp/verdesapiens-frontend-user",
       image: "./projects/verdesapiens.webp",
-      }
+      },
+      {
+        title: "Clima",
+        about: "Aplicación web SPA desarrollada en React con Material UI, que utiliza la API de WeatherAPI.com para proporcionar información meteorológica actualizada. Muestra la temperatura, el estado del clima (despejado, nublado, etc.) y presenta un icono representativo del clima. Incluye un menú desplegable para seleccionar la ciudad y el país, y el fondo de la aplicación cambia automáticamente según sea de día o de noche en la ubicación seleccionada.",
+        tags: [
+          "ReactJS",
+          "MaterialUI",
+          "APIs"
+        ],
+        demo: "https://vnasp.github.io/weather-frontend-user/",
+        github: "https://github.com/vnasp/weather-frontend-user",
+        image: "./projects/clima.webp",
+        },
+        {
+          title: "Bitácora de Animales",
+          about: "Aplicación web SPA para el registro de animales desarrollada en HTML, Bootstrap y Javascript con un enfoque de skeumorfismo para simular un cuadernillo y bitácora real. Incorpora clases, constructores, getters y setters en Javascript, y estructura modular. Los usuarios pueden hacer anotaciones y escuchar sonidos de los animales, enriqueciendo la experiencia educativa.",
+          tags: [
+            "HTML5",
+            "JavaScript",
+            "Bootstrap",
+          ],
+          demo: "https://vnasp.github.io/animals-frontend-user/",
+          github: "https://github.com/vnasp/animals-frontend-user",
+          image: "./projects/bitacora.webp",
+          }
 ]
