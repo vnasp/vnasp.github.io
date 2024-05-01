@@ -97,7 +97,7 @@ export const ProjectData = [
       "Bootstrap",
       "CSS3",
       "SwiperJS",
-      "APIs"
+      "RestAPI"
     ],
     demo: "https://mimarketlatino.netlify.app",
     github: "https://vnasp.github.io/restaurant-frontend-react-user",
@@ -153,7 +153,7 @@ export const ProjectData = [
     "jQuery",
     "JavaScript",
     "TailwindCSS",
-    "APIs"
+    "RestAPI"
   ],
   demo: "https://vnasp.github.io/superheroes-frontend-user",
   github: "https://github.com/vnasp/superheroes-frontend-user",
@@ -189,11 +189,11 @@ export const ProjectData = [
       },
       {
         title: "Clima",
-        about: "Aplicación web SPA desarrollada en React con Material UI, que utiliza la API de WeatherAPI.com para proporcionar información meteorológica actualizada. Muestra la temperatura, el estado del clima (despejado, nublado, etc.) y presenta un icono representativo del clima. Incluye un menú desplegable para seleccionar la ciudad y el país, y el fondo de la aplicación cambia automáticamente según sea de día o de noche en la ubicación seleccionada.",
+        about: "Aplicación web SPA desarrollada en React con Material UI, que utiliza la API de WeatherAPI para obtener información meteorológica. Muestra la temperatura y el estado del clima. Incluye un menú desplegable para seleccionar la ubicación y el fondo de la aplicación cambia automáticamente según sea de día o de noche en la ubicación seleccionada.",
         tags: [
           "ReactJS",
           "MaterialUI",
-          "APIs"
+          "RestAPI"
         ],
         demo: "https://vnasp.github.io/weather-frontend-user/",
         github: "https://github.com/vnasp/weather-frontend-user",

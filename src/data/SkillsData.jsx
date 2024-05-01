@@ -13,6 +13,7 @@ export const SkillsData = [
       { name: "Sass", icon: <i className="devicon-sass-original colored"></i> },
       { name: "Bootstrap", icon: <i className="devicon-bootstrap-plain colored"></i> },
       { name: "TailwindCSS", icon: <i className="devicon-tailwindcss-original colored"></i> },
+      { name: "MaterialUI", icon: <i class="devicon-materialui-plain colored"></i> },
       { name: "JavaScript", icon: <i className="devicon-javascript-plain colored"></i> },
       { name: "jQuery", icon: <i className="devicon-jquery-plain colored"></i> },
       { name: "ReactJS", icon: <i className="devicon-react-original colored"></i> },
@@ -20,6 +21,7 @@ export const SkillsData = [
       { name: "NextJS", icon: <i className="devicon-nextjs-original-wordmark colored"></i> },
    /*   { name: "VueJS", icon: <i className="devicon-vuejs-plain colored"></i> },*/
       { name: "JSON", icon: <i className="devicon-json-plain colored"></i> },
+      { name: "Firebase", icon: <i class="devicon-firebase-plain colored"></i>}
     ],
   },
   {
@@ -43,7 +45,7 @@ export const SkillsData = [
       },
       { name: "Axios", icon: <i className="devicon-axios-plain colored"></i> },
       { name: "Swagger", icon: <i className="devicon-swagger-plain colored"></i> },
-      { name: "REST API", icon: <FontAwesomeIcon icon={faExchangeAlt} />}
+      { name: "RestAPI", icon: <FontAwesomeIcon icon={faExchangeAlt} />}
    /*   { name: "Docker", icon: <i className="devicon-docker-plain colored"></i> },*/
     ],
   },
