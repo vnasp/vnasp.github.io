@@ -27,7 +27,7 @@ const Navigation = () => {
         <FontAwesomeIcon icon={faGear} />
       </NavLink>
       <a
-        href="./CV-Valentina-Muñoz-2024.pdf"
+        href="./CV-Valentina-Munoz-2024.pdf"
         className="navigation__link"
         download
         aria-label="Descarga mi currículum"
