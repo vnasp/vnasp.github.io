@@ -167,4 +167,23 @@ export const ProjectData = [
     github: "https://github.com/vnasp/likeme-fullstack-firebase",
     image: "./projects/artgallery.webp",
   },
+  {
+    title: "Dashboard",
+    about:
+      "Aplicación web SPA para visualización de datos, desarrollada con React, TailwindCSS y Plotly. Incluye selectores dinámicos, manejo del estado global con ContextAPI y navegación optimizada con React Router Dom. Carga de datos en formato JSON para mayor rendimiento.",
+    tags: ["ReactJS", "MaterialUI", "PlotlyJS, Axios"],
+    demo: "https://vnasp.github.io/dashboard-frontend-user/",
+    github: "https://github.com/vnasp/dashboard-frontend-user",
+    image: "./projects/dashboard.webp",
+  },
+
+  {
+    title: "Chat Web",
+    about:
+      "Aplicación web SPA de chat, desarrollada usando Vue2 y TailwindCSS. Simula un entorno de chat en tiempo real, donde los usuarios son generados dinámicamente mediante la Randomuser API y gestionados con Axios. Incorpora eventos para envío de mensajes y class binding para una respuesta visual dinámica.",
+    tags: ["VueJS", "TailwindCSS, Axios"],
+    demo: "https://vnasp.github.io/chat-vue2-frontend-user/",
+    github: "https://github.com/vnasp/chat-vue2-frontend-user",
+    image: "./projects/chatweb.webp",
+  },
 ];

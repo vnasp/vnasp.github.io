@@ -19,7 +19,7 @@ export const SkillsData = [
       { name: "ReactJS", icon: <i className="devicon-react-original colored"></i> },
       { name: "Vite", icon: <i className="devicon-vitejs-plain colored"></i> },
       { name: "NextJS", icon: <i className="devicon-nextjs-original-wordmark colored"></i> },
-   /*   { name: "VueJS", icon: <i className="devicon-vuejs-plain colored"></i> },*/
+      { name: "VueJS", icon: <i className="devicon-vuejs-plain colored"></i> },
       { name: "JSON", icon: <i className="devicon-json-plain colored"></i> },
       { name: "Firebase", icon: <i class="devicon-firebase-plain colored"></i>}
     ],
@@ -43,7 +43,6 @@ export const SkillsData = [
         name: "PostgreSQL",
         icon: <i className="devicon-postgresql-plain colored"></i>,
       },
-      { name: "Axios", icon: <i className="devicon-axios-plain colored"></i> },
       { name: "Swagger", icon: <i className="devicon-swagger-plain colored"></i> },
       { name: "RestAPI", icon: <FontAwesomeIcon icon={faExchangeAlt} />}
    /*   { name: "Docker", icon: <i className="devicon-docker-plain colored"></i> },*/
