@@ -176,14 +176,22 @@ export const ProjectData = [
     github: "https://github.com/vnasp/dashboard-frontend-user",
     image: "./projects/dashboard.webp",
   },
-
   {
     title: "Chat Web",
     about:
       "Aplicación web SPA de chat, desarrollada usando Vue2 y TailwindCSS. Simula un entorno de chat en tiempo real, donde los usuarios son generados dinámicamente mediante la Randomuser API y gestionados con Axios. Incorpora eventos para envío de mensajes y class binding para una respuesta visual dinámica.",
-    tags: ["VueJS", "TailwindCSS, Axios"],
+    tags: ["VueJS", "TailwindCSS, Axios, RestAPI"],
     demo: "https://vnasp.github.io/chat-vue2-frontend-user/",
     github: "https://github.com/vnasp/chat-vue2-frontend-user",
     image: "./projects/chatweb.webp",
+  },
+  {
+    title: "Who's that Pokémon?",
+    about:
+      "Aplicación web SPA para juego interactivo de adivinanzas, desarrollada con Vue2 y TailwindCSS. Los Pokémon son gestionados con la PokeAPI y Axios. Incluye eventos para la verificación de respuestas y utiliza class binding para actualizaciones visuales dinámicas basadas en la interacción del usuario.",
+    tags: ["VueJS", "TailwindCSS, Axios, RestAPI"],
+    demo: "https://vnasp.github.io/pokemon-vue2-frontend-user/",
+    github: "https://github.com/vnasp/pokemon-vue2-frontend-user",
+    image: "./projects/pokemongame.webp",
   },
 ];
