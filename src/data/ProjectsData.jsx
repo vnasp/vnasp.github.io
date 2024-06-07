@@ -171,7 +171,7 @@ export const ProjectData = [
     title: "Dashboard",
     about:
       "Aplicación web SPA para visualización de datos, desarrollada con React, TailwindCSS y Plotly. Incluye selectores dinámicos, manejo del estado global con ContextAPI y navegación optimizada con React Router Dom. Carga de datos en formato JSON para mayor rendimiento.",
-    tags: ["ReactJS", "MaterialUI", "PlotlyJS, Axios"],
+    tags: ["ReactJS", "TailwindCSS", "PlotlyJS", "Axios"],
     demo: "https://vnasp.github.io/dashboard-frontend-user/",
     github: "https://github.com/vnasp/dashboard-frontend-user",
     image: "./projects/dashboard.webp",
@@ -179,8 +179,8 @@ export const ProjectData = [
   {
     title: "Chat Web",
     about:
-      "Aplicación web SPA de chat, desarrollada usando Vue2 y TailwindCSS. Simula un entorno de chat en tiempo real, donde los usuarios son generados dinámicamente mediante la Randomuser API y gestionados con Axios. Incorpora eventos para envío de mensajes y class binding para una respuesta visual dinámica.",
-    tags: ["VueJS", "TailwindCSS, Axios, RestAPI"],
+      "Aplicación web SPA de chat, desarrollada usando Vue2 y TailwindCSS. Simula un chat web (no responsive), donde los usuarios son gestionados dinámicamente con Randomuser API y Axios. Incorpora eventos para envío de mensajes y class binding para una respuesta visual dinámica.",
+    tags: ["VueJS", "TailwindCSS", "Axios", "RestAPI"],
     demo: "https://vnasp.github.io/chat-vue2-frontend-user/",
     github: "https://github.com/vnasp/chat-vue2-frontend-user",
     image: "./projects/chatweb.webp",
@@ -189,7 +189,7 @@ export const ProjectData = [
     title: "Who's that Pokémon?",
     about:
       "Aplicación web SPA para juego interactivo de adivinanzas, desarrollada con Vue2 y TailwindCSS. Los Pokémon son gestionados con la PokeAPI y Axios. Incluye eventos para la verificación de respuestas y utiliza class binding para actualizaciones visuales dinámicas basadas en la interacción del usuario.",
-    tags: ["VueJS", "TailwindCSS, Axios, RestAPI"],
+    tags: ["VueJS", "TailwindCSS", "Axios", "RestAPI"],
     demo: "https://vnasp.github.io/pokemon-vue2-frontend-user/",
     github: "https://github.com/vnasp/pokemon-vue2-frontend-user",
     image: "./projects/pokemongame.webp",
