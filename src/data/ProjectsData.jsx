@@ -194,4 +194,31 @@ export const ProjectData = [
     github: "https://github.com/vnasp/pokemon-vue2-frontend-user",
     image: "./projects/pokemongame.webp",
   },
+  {
+    title: "Sistema de Reservas",
+    about:
+      "Aplicación web SPA para sistema de reservas desarrollado con Vue3, VueRouter, VueStore, y Bootstrap. Los datos de usuarios, reservas y servicios son gestionados desde JSON. Incluye vistas para usuario y para administrador con rutas protegidas. Utiliza Jest para testing del frontend.",
+    tags: ["VueJS", "Bootstrap", "JSON"],
+    demo: "https://vnasp.github.io/reservas-vue-frontend-user/",
+    github: "https://github.com/vnasp/reservas-vue-frontend-user ",
+    image: "./projects/reservas.webp",
+  },
+  {
+    title: "E-Commerce",
+    about:
+      "Aplicación web SPA de carrito de compras, desarrollado con Vue3 y TailwindCSS. Los productos son gestionados desde JSON. Incluye eventos para la verificación de respuestas y utiliza class binding para actualizaciones visuales dinámicas basadas en la interacción del usuario.",
+    tags: ["VueJS", "Bootstrap", "JSON"],
+    demo: "https://vnasp.github.io/ecommerce-vue3-frontend-user/",
+    github: "https://github.com/vnasp/ecommerce-vue3-frontend-user",
+    image: "./projects/vuecommerce.webp",
+  },
+ /* {
+    title: "algo con django",
+    about:
+      "Aplicación web SPA de carrito de compras, desarrollado con Vue3 y TailwindCSS. Los productos son gestionados desde JSON. Incluye eventos para la verificación de respuestas y utiliza class binding para actualizaciones visuales dinámicas basadas en la interacción del usuario.",
+    tags: ["Django", "Docker", "Bokeh"],
+    demo: "https://vnasp.github.io/ecommerce-vue3-frontend-user/",
+    github: "https://github.com/vnasp/ecommerce-vue3-frontend-user",
+    image: "./projects/vuecommerce.webp",
+  },*/
 ];
