@@ -22,7 +22,7 @@ export const ProjectData = [
     about:
       "Galería de imágenes SPA desarrollada en React y Vite con integración de Bootstrap para diseño responsivo. Funciones de lista de favoritos y búsqueda implementadas, con gestión de contenido dinámico a través de un archivo JSON para fácil mantenimiento.",
     tags: ["ReactJS", "Vite", "JavaScript", "JSON", "Bootstrap"],
-    demo: "https://vnasp.github.io/naturalpic-frontend-user",
+    demo: "https://vnasp.github.io/naturalpic-frontend-user/",
     github: "https://github.com/vnasp/naturalpic-frontend-user",
     image: "./projects/naturalpic.webp",
   },
@@ -75,7 +75,7 @@ export const ProjectData = [
       "RestAPI",
     ],
     demo: "https://mimarketlatino.netlify.app",
-    github: "https://vnasp.github.io/restaurant-frontend-react-user",
+    github: "https://github.com/vnasp/marketplace-frontend-react-user",
     image: "./projects/marketplace-frontend.webp",
   },
   {
@@ -212,6 +212,15 @@ export const ProjectData = [
     github: "https://github.com/vnasp/ecommerce-vue3-frontend-user",
     image: "./projects/vuecommerce.webp",
   },
+  /* {
+    title: "Juego El Ahorcado",
+    about:
+      "Aplicación web SPA de carrito de compras, desarrollado con Vue3 y TailwindCSS. Los productos son gestionados desde JSON. Incluye eventos para la verificación de respuestas y utiliza class binding para actualizaciones visuales dinámicas basadas en la interacción del usuario.",
+    tags: ["Django", "Docker", "Bokeh"],
+    demo: "https://vnasp.github.io/ecommerce-vue3-frontend-user/",
+    github: "https://github.com/vnasp/ecommerce-vue3-frontend-user",
+    image: "./projects/vuecommerce.webp",
+  },*/
  /* {
     title: "algo con django",
     about:

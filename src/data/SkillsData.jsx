@@ -49,9 +49,9 @@ export const SkillsData = [
         icon: <i className="devicon-postgresql-plain colored"></i>,
       },
       { name: "Swagger", icon: <i className="devicon-swagger-plain colored"></i> },
-      { name: "RestAPI", icon: <img src="./src/assets/icons/icon-rest-api.png" height={30} width={30} className="mb-1" /> },
+      { name: "RestAPI", icon: <img src="./assets/icons/icon-rest-api.png" height={30} width={30} className="mb-1" /> },
       { name: "Docker", icon: <i className="devicon-docker-plain colored"></i> },
-      { name: "Bokeh", icon: <img src="./src/assets/icons/icon-bokeh.png" height={30} width={30} className="mb-1" /> }
+      { name: "Bokeh", icon: <img src="./assets/icons/icon-bokeh.png" height={30} width={30} className="mb-1" /> }
     ],
   },
   {
