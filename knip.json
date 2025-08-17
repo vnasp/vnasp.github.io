@@ -1,0 +1,6 @@
+{
+  "$schema": "https://unpkg.com/knip/schema.json",
+  "entry": ["src/main.tsx"],
+  "project": ["src/**/*.ts", "src/**/*.tsx"],
+  "ignore": ["dist", "node_modules"]
+}

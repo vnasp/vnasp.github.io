@@ -1,25 +1,23 @@
-import { useEffect } from 'react';
-import { SkillsData } from "../data/SkillsData";
-import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useEffect } from 'react'
+import { skillsData } from '../data'
 
-const Skills = () => {
-  const data = SkillsData
+function Skills() {
+  const data = skillsData
 
   useEffect(() => {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css';
-    document.head.appendChild(link);
+    const link = document.createElement('link')
+    link.rel = 'stylesheet'
+    link.href = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css'
+    document.head.appendChild(link)
 
     return () => {
-      document.head.removeChild(link);
-    };
-  }, []);
-  
+      document.head.removeChild(link)
+    }
+  }, [])
+
   return (
     <main className="main">
-      <section className="w-2/5 skills__photo">
+      <section className="skills__photo w-2/5">
         <img src="./assets/img/skills.webp" alt="Full Stack Developer Chile" />
       </section>
       <section className="skills">
@@ -39,7 +37,7 @@ const Skills = () => {
       </section>
       <section></section>
     </main>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills
