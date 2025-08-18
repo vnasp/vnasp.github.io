@@ -1,26 +1,37 @@
-import { Route, Routes } from 'react-router-dom'
-import Header from './views/Header.jsx'
-import About from './views/About.jsx'
-import Portfolio from './views/Portfolio.jsx'
-import Footer from './views/Footer.jsx'
-import NotFound from './views/NotFound.jsx'
-import Home from './views/Home.jsx'
-import Skills from './views/Skills.jsx'
-import Navigation from './components/Navigation.jsx'
+// React & libraries
+import { Route, Routes } from 'react-router'
+
+// Flowbite UI
+
+// Internal helpers
+
+// Components / pages
+import HeaderSection from './components/HeaderSection'
+import FooterSection from './components/FooterSection'
+import NavSection from './components/NavSection'
+import HomePage from './pages/HomePage'
+import About from './pages/AboutPage'
+import PortfolioPage from './pages/PortfolioPage'
+import SkillsPage from './pages/SkillsPage'
+import NotFound from './pages/NotFound'
+
+// Assets
 
 function App() {
   return (
     <>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sobre-mi" element={<About />} />
-        <Route path="/portafolio" element={<Portfolio />} />
-        <Route path="/habilidades" element={<Skills />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-      <Footer />
-      <Navigation />
+      <HeaderSection />
+      <main className="flex flex-1 flex-col justify-center px-4 lg:justify-center">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/skills" element={<SkillsPage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+      <FooterSection />
+      <NavSection />
     </>
   )
 }

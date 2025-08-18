@@ -6,7 +6,7 @@ type SkillItem = {
 }
 
 export type SkillCategory = {
-  type: 'Frontend' | 'Backend' | 'CMS' | 'Programas'
+  type: 'frontend' | 'backend' | 'cms' | 'programas' | 'librerias'
   list: SkillItem[]
 }
 

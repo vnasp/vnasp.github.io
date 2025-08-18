@@ -12,51 +12,53 @@ type ProjectsProps = {
 
 function Projects({ data }: ProjectsProps) {
   return (
-    <Swiper navigation modules={[Navigation]} className="projects__swiper" id="swiperProjects">
-      {data.map((project) => (
-        <SwiperSlide key={project.title}>
-          <div className="w-full lg:w-3/4">
-            {project.image ? (
-              <img
-                src={project.image}
-                alt={project.title}
-                className="project__image"
-                loading="lazy"
-              />
-            ) : null}
-          </div>
+    <div className="col-span-8">
+      <Swiper navigation modules={[Navigation]} className="projects__swiper" id="swiperProjects">
+        {data.map((project) => (
+          <SwiperSlide key={project.title}>
+            <div className="w-full lg:w-3/4">
+              {project.image ? (
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="project__image"
+                  loading="lazy"
+                />
+              ) : null}
+            </div>
 
-          <h4 className="project__name">{project.title}</h4>
+            <h4 className="project__name">{project.title}</h4>
 
-          <div className="project__share">
-            {project.github && (
-              <a
-                href={project.github}
-                className="project__share--btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub
-              </a>
-            )}
-            {project.demo && (
-              <a
-                href={project.demo}
-                className="project__share--btn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Demo
-              </a>
-            )}
-          </div>
+            <div className="project__share">
+              {project.github && (
+                <a
+                  href={project.github}
+                  className="project__share--btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              )}
+              {project.demo && (
+                <a
+                  href={project.demo}
+                  className="project__share--btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Demo
+                </a>
+              )}
+            </div>
 
-          <div>
-            <p className="project__desc">{project.about}</p>
-          </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
+            <div>
+              <p className="project__desc">{project.about}</p>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   )
 }
 

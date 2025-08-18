@@ -98,7 +98,7 @@ export const projectsData: Project[] = [
     tags: ['ReactJS', 'Vite', 'JavaScript', 'TailwindCSS', 'SwiperJS'],
     demo: 'https://vnasp.github.io',
     github: 'https://github.com/vnasp/vnasp.github.io',
-    image: './projects/portafolio.webp',
+    image: './projects/portfolio.webp',
   },
   {
     title: 'VerdeSapiens',

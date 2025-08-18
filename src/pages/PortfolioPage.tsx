@@ -3,10 +3,11 @@ import Projects from '../components/Projects'
 import { projectsData, skillsData } from '../data'
 import Tags from '../components/Tags'
 import type { Project } from '../types/portfolioTypes'
+import Title from '../components/ui/Title'
 
 type TagCounts = Record<string, number>
 
-function Portfolio() {
+function PortfolioPage() {
   const [selectedSkill, setSelectedSkill] = useState<string | null>(null)
 
   const countTags = (projects: ReadonlyArray<Project>): TagCounts => {
@@ -34,20 +35,23 @@ function Portfolio() {
   )
 
   return (
-    <main className="main">
-      <section className="w-screen lg:w-2/5">
-        <Tags
-          data={skillsData}
-          tagCounts={tagsUsageCount}
-          onSkillSelect={handleSkillSelect}
-          selectedSkill={selectedSkill}
-        />
-      </section>
-      <section className="projects">
-        <Projects data={filteredProjects} />
-      </section>
-    </main>
+    <>
+      <div className="space-y-8">
+        <Title title="Portafolio" />
+
+        <section className="grid grid-cols-12 gap-x-10">
+          <Tags
+            data={skillsData}
+            tagCounts={tagsUsageCount}
+            onSkillSelect={handleSkillSelect}
+            selectedSkill={selectedSkill}
+          />
+
+          <Projects data={filteredProjects} />
+        </section>
+      </div>
+    </>
   )
 }
 
-export default Portfolio
+export default PortfolioPage

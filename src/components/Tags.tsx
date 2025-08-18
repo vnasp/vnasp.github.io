@@ -18,9 +18,9 @@ function Tags({ data, tagCounts, onSkillSelect, selectedSkill }: TagsProps) {
   }
 
   return (
-    <>
+    <div className="col-span-4">
       <p className="mb-6 text-center">Filtra por una habilidad</p>
-      <div className="projects__tags">
+      <div className="b-4 flex flex-row flex-wrap justify-center gap-2">
         <label
           className={`projects__tags--bg text-lg ${
             selectedSkill === null ? 'navigation__link--active' : ''
@@ -30,7 +30,7 @@ function Tags({ data, tagCounts, onSkillSelect, selectedSkill }: TagsProps) {
           Todos
         </label>
         {data.map((item, index) => {
-          if (item.type === 'Frontend' || item.type === 'Backend') {
+          if (item.type === 'frontend' || item.type === 'backend') {
             return (
               <Fragment key={index}>
                 {item.list.map((skill, skillIndex) => {
@@ -62,7 +62,7 @@ function Tags({ data, tagCounts, onSkillSelect, selectedSkill }: TagsProps) {
           return null
         })}
       </div>
-    </>
+    </div>
   )
 }
 

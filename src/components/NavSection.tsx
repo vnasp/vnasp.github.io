@@ -8,25 +8,25 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function Navigation() {
+function NavSection() {
   const setActiveclassName: NavLinkProps['className'] = ({ isActive }) =>
     isActive ? 'navigation__link navigation__link--active' : 'navigation__link'
 
   return (
-    <nav className="navigation">
+    <nav className="NavSection">
       <NavLink to="/" className={setActiveclassName} aria-label="Inicio">
         <FontAwesomeIcon icon={faHouse} />
       </NavLink>
 
-      <NavLink to="/sobre-mi" className={setActiveclassName} aria-label="Sobre mi">
+      <NavLink to="/about" className={setActiveclassName} aria-label="Sobre mi">
         <FontAwesomeIcon icon={faUser} />
       </NavLink>
 
-      <NavLink to="/portafolio" className={setActiveclassName} aria-label="Portafolio">
+      <NavLink to="/portfolio" className={setActiveclassName} aria-label="Portafolio">
         <FontAwesomeIcon icon={faBriefcase} />
       </NavLink>
 
-      <NavLink to="/habilidades" className={setActiveclassName} aria-label="Habilidades">
+      <NavLink to="/skills" className={setActiveclassName} aria-label="Habilidades">
         <FontAwesomeIcon icon={faGear} />
       </NavLink>
 
@@ -42,4 +42,4 @@ function Navigation() {
   )
 }
 
-export default Navigation
+export default NavSection
