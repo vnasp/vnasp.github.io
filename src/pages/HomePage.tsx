@@ -21,7 +21,7 @@ function HomePage() {
           aria-hidden="true"
         />
         <img
-          src="./src/assets/img/home.webp"
+          src="/assets/img/home.webp"
           alt={`Retrato de ${BRAND_NAME}`}
           className="aspect-square h-[360px] rounded-xl object-cover shadow-lg"
         />

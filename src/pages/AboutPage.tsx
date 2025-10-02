@@ -17,7 +17,7 @@ function AboutPage() {
           aria-hidden="true"
         />
         <img
-          src="./src/assets/img/about.webp"
+          src="/assets/img/about.webp"
           alt={`Foto de ${BRAND_NAME}`}
           className="aspect-square h-[360px] rounded-xl object-cover shadow-lg"
         />
