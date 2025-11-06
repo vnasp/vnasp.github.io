@@ -10,25 +10,11 @@ function HomePage() {
 
   return (
     <section
-      className="bg-dark grid grid-cols-1 items-center gap-x-10 lg:grid-cols-12"
+      className="bg-dark mx-auto max-w-3xl items-center gap-x-10"
       aria-label="Sección principal de bienvenida"
     >
-      {/* Imagen con pin */}
-      <div className="relative mx-auto mb-8 inline-block rotate-[-3deg] lg:col-span-4 lg:mb-0">
-        <FontAwesomeIcon
-          icon={faThumbtack}
-          className="absolute -top-6 left-4 rotate-[-20deg] text-4xl text-gray-300 drop-shadow-md"
-          aria-hidden="true"
-        />
-        <img
-          src="/assets/img/home.webp"
-          alt={`Retrato de ${BRAND_NAME}`}
-          className="aspect-square h-[360px] rounded-xl object-cover shadow-lg"
-        />
-      </div>
-
       {/* Texto */}
-      <div className="space-y-8 text-center lg:col-span-8 lg:text-left">
+      <div className="space-y-8 text-center lg:text-left">
         <Title title="Orientada a objetivos" />
 
         <p className="text-justify leading-relaxed text-gray-200 md:leading-loose">

@@ -14,9 +14,9 @@ function Projects({ data }: ProjectsProps) {
   return (
     <div className="col-span-8">
       <Swiper navigation modules={[Navigation]} className="projects__swiper" id="swiperProjects">
-        {data.map((project) => (
+        {[...data].reverse().map((project) => (
           <SwiperSlide key={project.title}>
-            <div className="w-full lg:w-3/4">
+            <div className="w-full">
               {project.image ? (
                 <img
                   src={project.image}

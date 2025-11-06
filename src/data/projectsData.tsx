@@ -98,7 +98,7 @@ export const projectsData: Project[] = [
     tags: ['ReactJS', 'Vite', 'JavaScript', 'TailwindCSS', 'SwiperJS'],
     demo: 'https://vnasp.github.io',
     github: 'https://github.com/vnasp/vnasp.github.io',
-    image: './projects/portfolio.webp',
+    image: './projects/portafolio.webp',
   },
   {
     title: 'VerdeSapiens',
@@ -180,5 +180,14 @@ export const projectsData: Project[] = [
     demo: 'https://vnasp.github.io/ecommerce-vue3-frontend-user/',
     github: 'https://github.com/vnasp/ecommerce-vue3-frontend-user',
     image: './projects/vuecommerce.webp',
+  },
+  {
+    title: 'Gestor de Tareas',
+    about:
+      'Gestor de tareas desarrollado con Django, HTMX y TailwindCSS. Permite a los usuarios crear, editar, completar y eliminar tareas. Utiliza PostgreSQL para la gestión de datos y class binding para actualizaciones visuales dinámicas. Incorpora gráficos interactivos con Bokeh para visualizar el progreso de las tareas.',
+    tags: ['Django', 'HTMX', 'TailwindCSS', 'PostgreSQL', 'Bokeh'],
+    demo: 'https://todo-django-htmx.onrender.com/',
+    github: 'https://github.com/vnasp/todo-django-htmx',
+    image: './projects/gestordetareas.webp',
   },
 ]

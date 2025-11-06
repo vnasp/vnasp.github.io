@@ -96,7 +96,7 @@ body {
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
 }
 .project__image {
-  @apply w-3/4 rounded-lg object-cover shadow-md;
+  @apply mx-auto w-3/4 rounded-lg object-contain shadow-md lg:max-h-[295px];
 }
 .project__name {
   @apply my-4 text-lg tracking-widest uppercase;
